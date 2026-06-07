@@ -1,0 +1,3085 @@
+ 	 
+ d-----,26/09/2025,17:55,IISExpress 	 	  	 
+ d-----,26/09/2025,17:55,My Web Sites 	 	  	 
+ d-----,12/07/2025,18:51,PowerShell 	 	  	 
+ d-----,12/07/2025,18:39,WindowsPowerShell 	 	  	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	  	 
+ d-----,26/09/2025,17:55,IISExpress 	 	  	 
+ d-----,26/09/2025,17:55,My Web Sites 	 	  	 
+ d-----,12/07/2025,18:51,PowerShell 	 	  	 
+ d-----,12/07/2025,18:39,WindowsPowerShell 	 	  	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	 
+  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\11199185 1-300-traduzido.pdf
+ NÂO DEU CERTO O PATH C:\Users\kaiky\Downloads\11199185 1-300-traduzido.pdf 	 
+ d-----,26/09/2025,17:55,IISExpress 	 	  	 
+ d-----,26/09/2025,17:55,My Web Sites 	 	  	 
+ d-----,12/07/2025,18:51,PowerShell 	 	  	 
+ d-----,12/07/2025,18:39,WindowsPowerShell 	 	  	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	 
+  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\11199185 1-300-traduzido.pdf
+         ExitCode: {process.ExitCode}
+        Output: {output}
+        Error: {error}
+         	 
+ d-----,26/09/2025,17:55,IISExpress 	 	  	 
+ d-----,26/09/2025,17:55,My Web Sites 	 	  	 
+ d-----,12/07/2025,18:51,PowerShell 	 	  	 
+ d-----,12/07/2025,18:39,WindowsPowerShell 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	 
+  ESSE EO PATH A INICIARC:\Users\kaiky\135 teste.cs
+         ExitCode: 1
+        Output: 
+        Error: Start-Process : Esse comando nÆo pode ser executado devido ao erro: O sistema nÆo pode encontrar o arquivo especificado.
+No linha:1 caractere:1
++ Start-Process -FilePath 'C:\Users\kaiky\135 teste.cs'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+
+         	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	 
+  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\1-300-traduzido.pdf
+  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\Cristal.jpeg
+  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\pythonCourse.pdf 	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,06/06/2026,13:55,Assets 	 	  	 
+ d-----,04/06/2026,19:07,bin 	 	  	 
+ d-----,04/06/2026,15:29,Configurations 	 	  	 
+ d-----,07/06/2026,11:25,Models 	 	  	 
+ d-----,05/06/2026,10:05,obj 	 	  	 
+ d-----,07/06/2026,11:41,Services 	 	  	 
+ d-----,07/06/2026,11:53,ViewModels 	 	  	 
+ d-----,07/06/2026,11:17,Views 	 	  	 
+ -a----,01/06/2026,13:56,572 App.axaml 	 	  	 
+ -a----,04/06/2026,14:29,658 App.axaml.cs 	 	  	 
+ -a----,01/06/2026,13:56,931 app.manifest 	 	  	 
+ -a----,07/06/2026,11:54,41096 debug.txt 	 	  	 
+ -a----,04/06/2026,19:42,1187 OpenPath.UI.csproj 	 	  	 
+ -a----,04/06/2026,14:25,744 Program.cs 	 	  	 
+ -a----,01/06/2026,13:56,1055 ViewLocator.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,06/06/2026,13:55,Assets 	 	  	 
+ d-----,04/06/2026,19:07,bin 	 	  	 
+ d-----,04/06/2026,15:29,Configurations 	 	  	 
+ d-----,07/06/2026,11:25,Models 	 	  	 
+ d-----,05/06/2026,10:05,obj 	 	  	 
+ d-----,07/06/2026,11:41,Services 	 	  	 
+ d-----,07/06/2026,11:53,ViewModels 	 	  	 
+ d-----,07/06/2026,11:17,Views 	 	  	 
+ -a----,01/06/2026,13:56,572 App.axaml 	 	  	 
+ -a----,04/06/2026,14:29,658 App.axaml.cs 	 	  	 
+ -a----,01/06/2026,13:56,931 app.manifest 	 	  	 
+ -a----,07/06/2026,11:54,41991 debug.txt 	 	  	 
+ -a----,04/06/2026,19:42,1187 OpenPath.UI.csproj 	 	  	 
+ -a----,04/06/2026,14:25,744 Program.cs 	 	  	 
+ -a----,01/06/2026,13:56,1055 ViewLocator.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	  	 
+ d-----,06/06/2026,09:23,.git 	 	  	 
+ d-----,13/10/2023,14:16,.vscode 	 	  	 
+ d-----,22/05/2026,22:14,C# 	 	  	 
+ d-----,23/11/2025,10:40,chave 	 	  	 
+ d-----,14/03/2026,09:42,DeltaBox 	 	  	 
+ d-----,14/03/2026,09:30,demo-deltaboxtest 	 	  	 
+ d-----,09/03/2026,08:14,Html 	 	  	 
+ d-----,14/10/2025,08:35,JS 	 	  	 
+ d-----,18/05/2026,20:34,Python 	 	  	 
+ d-----,01/12/2025,09:13,Sql 	 	  	 
+ d-----,18/03/2026,21:12,TesteDeltabox 	 	  	 
+ d-----,17/05/2026,13:58,testeTextNuvem 	 	  	 
+ -a----,09/02/2025,12:27,719 Visual Studio Code.lnk 	 	  	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,06/06/2026,13:55,Assets 	 	  	 
+ d-----,04/06/2026,19:07,bin 	 	  	 
+ d-----,04/06/2026,15:29,Configurations 	 	  	 
+ d-----,07/06/2026,11:25,Models 	 	  	 
+ d-----,05/06/2026,10:05,obj 	 	  	 
+ d-----,07/06/2026,11:41,Services 	 	  	 
+ d-----,07/06/2026,11:53,ViewModels 	 	  	 
+ d-----,07/06/2026,11:17,Views 	 	  	 
+ -a----,01/06/2026,13:56,572 App.axaml 	 	  	 
+ -a----,04/06/2026,14:29,658 App.axaml.cs 	 	  	 
+ -a----,01/06/2026,13:56,931 app.manifest 	 	  	 
+ -a----,07/06/2026,11:55,61694 debug.txt 	 	  	 
+ -a----,04/06/2026,19:42,1187 OpenPath.UI.csproj 	 	  	 
+ -a----,04/06/2026,14:25,744 Program.cs 	 	  	 
+ -a----,01/06/2026,13:56,1055 ViewLocator.cs 	 	 
+  ESSE EO PATH A INICIARC:\ViewLocator.cs
+         ExitCode: 1
+        Output: 
+        Error: Start-Process : Esse comando nÆo pode ser executado devido ao erro: O sistema nÆo pode encontrar o arquivo especificado.
+No linha:1 caractere:1
++ Start-Process -FilePath 'C:\ViewLocator.cs'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+
+        
+  ESSE EO PATH A INICIARC:\debug.txt
+         ExitCode: 1
+        Output: 
+        Error: Start-Process : Esse comando nÆo pode ser executado devido ao erro: O sistema nÆo pode encontrar o arquivo especificado.
+No linha:1 caractere:1
++ Start-Process -FilePath 'C:\debug.txt'
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+
+         	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	 
+  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\1-300-traduzido.pdf 	 
+ d-----,06/06/2026,09:23,.git 	 	  	 
+ d-----,13/10/2023,14:16,.vscode 	 	  	 
+ d-----,22/05/2026,22:14,C# 	 	  	 
+ d-----,23/11/2025,10:40,chave 	 	  	 
+ d-----,14/03/2026,09:42,DeltaBox 	 	  	 
+ d-----,14/03/2026,09:30,demo-deltaboxtest 	 	  	 
+ d-----,09/03/2026,08:14,Html 	 	  	 
+ d-----,14/10/2025,08:35,JS 	 	  	 
+ d-----,18/05/2026,20:34,Python 	 	  	 
+ d-----,01/12/2025,09:13,Sql 	 	  	 
+ d-----,18/03/2026,21:12,TesteDeltabox 	 	  	 
+ d-----,17/05/2026,13:58,testeTextNuvem 	 	  	 
+ -a----,09/02/2025,12:27,719 Visual Studio Code.lnk 	 	  	 
+ d-----,26/05/2026,13:40,algoritimos 	 	  	 
+ d-----,06/11/2025,11:26,Ca‡aAosBugsDesafio 	 	  	 
+ d-----,25/04/2026,08:49,Course 	 	  	 
+ d-----,08/11/2025,18:09,cshark--aprendendo 	 	  	 
+ d-----,25/02/2026,17:46,DeltaBox 	 	  	 
+ d-----,19/02/2026,11:08,DesafioCarnaval 	 	  	 
+ d-----,21/04/2026,20:24,Jogos 	 	  	 
+ d-----,23/10/2025,16:05,Libs 	 	  	 
+ d-----,23/05/2026,21:30,PackagesContrib 	 	  	 
+ d-----,14/06/2025,09:06,Projeto-Xadrez-Console 	 	  	 
+ d-----,09/12/2025,13:06,ProjetosApiMicroservi‡os 	 	  	 
+ d-----,08/11/2025,10:18,ProjetosAspNet 	 	  	 
+ d-----,20/12/2025,18:16,ProjetosCsharp 	 	  	 
+ d-----,01/06/2026,13:54,ProjetosPortifolio 	 	  	 
+ d-----,29/05/2026,20:47,Testes 	 	  	 
+ d-----,03/05/2026,11:48,SnakeGame 	 	  	 
+ d-----,21/04/2026,20:24,.idea 	 	  	 
+ d-----,21/04/2026,20:24,bin 	 	  	 
+ d-----,30/04/2026,21:33,obj 	 	  	 
+ -a----,22/04/2026,20:05,187 Block.cs 	 	  	 
+ -a----,22/04/2026,20:08,176 Configuration.cs 	 	  	 
+ -a----,22/04/2026,20:22,274 Position.cs 	 	  	 
+ -a----,03/05/2026,11:25,6775 Program.cs 	 	  	 
+ -a----,03/05/2026,11:48,415 README.md 	 	  	 
+ -a----,03/05/2026,10:31,412 Snake.cs 	 	  	 
+ -a----,21/04/2026,20:24,253 SnakeGame.csproj 	 	 
+  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\kaka\C#\Jogos\SnakeGame\Block.cs 	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,06/06/2026,13:55,Assets 	 	  	 
+ d-----,04/06/2026,19:07,bin 	 	  	 
+ d-----,04/06/2026,15:29,Configurations 	 	  	 
+ d-----,07/06/2026,11:25,Models 	 	  	 
+ d-----,05/06/2026,10:05,obj 	 	  	 
+ d-----,07/06/2026,11:41,Services 	 	  	 
+ d-----,07/06/2026,11:53,ViewModels 	 	  	 
+ d-----,07/06/2026,11:17,Views 	 	  	 
+ -a----,01/06/2026,13:56,572 App.axaml 	 	  	 
+ -a----,04/06/2026,14:29,658 App.axaml.cs 	 	  	 
+ -a----,01/06/2026,13:56,931 app.manifest 	 	  	 
+ -a----,07/06/2026,12:26,72880 debug.txt 	 	  	 
+ -a----,04/06/2026,19:42,1187 OpenPath.UI.csproj 	 	  	 
+ -a----,04/06/2026,14:25,744 Program.cs 	 	  	 
+ -a----,01/06/2026,13:56,1055 ViewLocator.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+  exceção Object reference not set to an instance of an object. 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+  exceção Object reference not set to an instance of an object. 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+  exceção Object reference not set to an instance of an object. 	 	  	 
+ d-----,26/09/2025,17:55,IISExpress 	 	  	 
+ d-----,26/09/2025,17:55,My Web Sites 	 	  	 
+ d-----,12/07/2025,18:51,PowerShell 	 	  	 
+ d-----,12/07/2025,18:39,WindowsPowerShell 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,29/09/2025,17:36,pkg 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,29/09/2025,17:36,pkg 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-r---,14/05/2025,16:51,Links 	 	  	 
+ -a----,11/06/2025,16:29,208 Bing.url 	 	  	 
+ d-----,23/01/2026,15:28,DevelopmentKitSol 	 	  	 
+ d-----,18/03/2026,21:42,JetBrains Rider 2025.1.2 	 	  	 
+ d-----,17/05/2026,13:58,kaka 	 	  	 
+ d-----,03/04/2026,13:16,Livros 	 	  	 
+ d-----,20/04/2026,13:31,wallpapers 	 	  	 
+ -a----,08/05/2026,11:14,11199185 1-300-traduzido.pdf 	 	  	 
+ -a----,09/08/2025,11:11,11627877 12_Impla_JWT.zip 	 	  	 
+ -a----,08/05/2026,11:19,8861474 300-550-traduzido.pdf 	 	  	 
+ -a----,08/05/2026,11:22,8934516 551-813-traduzido.pdf 	 	  	 
+ -a----,01/04/2026,08:14,5620 AcheiTalvez.webp 	 	  	 
+ -a----,14/10/2025,17:31,148433736 azuredatastudio-windows-user-setup-1.52.0.exe 	 	  	 
+ -a----,26/05/2026,19:55,134596 basicoPythonCertificado.pdf 	 	  	 
+ -a----,09/04/2026,21:25,63480 BPMN_AS_IS_Loja.jpg 	 	  	 
+ -a----,09/04/2026,21:21,2390 BPMN_AS_IS_Loja.pdf 	 	  	 
+ -a----,26/02/2026,11:15,69662 Captura de tela 2026-02-26 111543.png 	 	  	 
+ -a----,26/02/2026,11:16,81511 Captura de tela 2026-02-26 111648.png 	 	  	 
+ -a----,13/03/2026,20:37,101649 Captura de tela 2026-03-13 203730.png 	 	  	 
+ -a----,06/05/2026,20:39,399481 certificado (1).pdf 	 	  	 
+ -a----,06/05/2026,21:02,147993 Certificado (2).pdf 	 	  	 
+ -a----,07/05/2026,19:41,283488 certificado (3).pdf 	 	  	 
+ -a----,06/05/2026,20:37,399481 certificado.pdf 	 	  	 
+ -a----,01/02/2026,14:13,33620 chat.png 	 	  	 
+ -a----,07/05/2026,14:17,1596497 ChatGPT Image 7 de mai. de 2026, 14_17_00.png 	 	  	 
+ -a----,03/05/2025,09:07,30597 Cristal.jpeg 	 	  	 
+ -a----,17/03/2026,09:39,2725319 Curr¡culo profissional de Kaiky Alves.png 	 	  	 
+ -a----,14/05/2026,19:21,121498 declaracao.pdf 	 	  	 
+ -a----,29/04/2026,20:14,54402 Declaracao_Matricula_Geral.pdf 	 	  	 
+ -a----,23/01/2026,15:29,215277034 DevelopmentKitSol.zip 	 	  	 
+ -a----,13/03/2025,16:29,549263216 Docker Desktop Installer.exe 	 	  	 
+ -a----,09/10/2025,11:16,119232496 dotnet-hosting-10.0.0-rc.1.25451.107-win.exe 	 	  	 
+ -a----,11/11/2025,16:47,215342200 dotnet-sdk-10.0.100-win-x64.exe 	 	  	 
+ -a----,01/04/2026,08:32,5076 download.png 	 	  	 
+ -a----,01/02/2026,14:20,225995 EstaTudoOk.png 	 	  	 
+ -a----,04/06/2026,19:23,4268 finder.png 	 	  	 
+ -a----,27/03/2026,13:45,53192 foto.webp 	 	  	 
+ -a----,06/05/2026,12:26,99513 fotominha.jpeg 	 	  	 
+ -a----,30/12/2024,10:25,131655600 GeForce_Experience_v3.28.0.417.exe 	 	  	 
+ -a----,27/04/2026,21:18,34884 GestÆoProcesso.png 	 	  	 
+ -a----,24/04/2026,10:28,35909 Icone.png 	 	  	 
+ -a----,23/01/2026,13:15,64331 iconeMlehroarchat.png 	 	  	 
+ -a----,15/10/2025,12:51,16672 IdeiaDeLib.png 	 	  	 
+ -a----,01/04/2026,08:47,674937 imagemFinal.png 	 	  	 
+ -a----,12/05/2026,20:04,133693 InteligenciaArtificialEoNOvoContextoCertificado.pdf 	 	  	 
+ -a----,01/06/2025,09:30,1544165400 JetBrains.Rider-2025.1.2.exe 	 	  	 
+ -a----,05/03/2025,17:34,793114 jg.png 	 	  	 
+ -a----,24/12/2025,10:57,81720 MandarParaochat.png 	 	  	 
+ -a----,31/01/2026,17:43,19862 MeuPrimium.png 	 	  	 
+ -a----,09/04/2026,21:13,148393 MeuProjetoPrototipagemDeSistemasComputacionais.pdf 	 	  	 
+ -a----,14/01/2025,17:54,550 meus investimentos-planilha.csv 	 	  	 
+ -a----,04/01/2025,09:27,13258536 NDP481-DevPack-PTB.exe 	 	  	 
+ -a----,04/01/2025,09:28,1466664 NDP481-Web.exe 	 	  	 
+ -a----,04/05/2026,19:48,20406 opcoes.png 	 	  	 
+ -a----,04/06/2026,15:22,24154 PastaIcon.jpg 	 	  	 
+ -a----,08/06/2025,10:01,18088 PorOndeComecar.png 	 	  	 
+ -a----,23/03/2026,20:53,419620 ProjetoAtividade3.png 	 	  	 
+ -a----,10/03/2026,21:19,81640 ProjetoFacul.png 	 	  	 
+ -a----,24/04/2026,13:35,158536 PrototipoInterfaceTextNuvem.png 	 	  	 
+ -a----,05/05/2026,20:11,46228058 python-manager-26.1.msix 	 	  	 
+ -a----,12/05/2026,20:30,134282 pythonCourse.pdf 	 	  	 
+ -a----,31/10/2025,15:49,9464784 RobloxPlayerInstaller.exe 	 	  	 
+ -a----,14/10/2025,09:50,4290992 SQL2022-SSEI-Dev.exe 	 	  	 
+ -a----,07/03/2026,09:53,33299 Talvez.png 	 	  	 
+ -a----,08/02/2026,20:38,173548 TeamPlan.png 	 	  	 
+ -a----,19/01/2026,12:43,77290 TeamPlanEndPoints.png 	 	  	 
+ -a----,05/06/2026,13:42,137111 teste.png 	 	  	 
+ -a----,23/04/2026,21:10,510088 UmlFluxo.png 	 	  	 
+ -a----,23/04/2026,20:58,474702 UmlProjeto.png 	 	  	 
+ -a----,23/04/2026,21:07,389046 UmlTime.png 	 	  	 
+ -a----,07/03/2026,09:50,96378 VirusTalvezImagem.png 	 	  	 
+ -a----,04/01/2025,16:06,4432984 VisualStudioSetup.exe 	 	  	 
+ -a----,22/06/2025,12:05,43833880 WarpSetup.exe 	 	  	 
+ -a----,06/05/2026,12:26,193379 WhatsApp Image 2026-05-06 at 12.24.55 (1).jpeg 	 	  	 
+ -a----,06/05/2026,12:25,190911 WhatsApp Image 2026-05-06 at 12.24.55.jpeg 	 	  	 
+ -a----,06/05/2026,12:27,167491 WhatsApp Image 2026-05-06 at 12.24.56.jpeg 	 	  	 
+ -a----,07/02/2026,20:19,84410 WireFrameTeamPlan.png 	 	  	 
+ d-----,26/09/2025,17:55,IISExpress 	 	  	 
+ d-----,26/09/2025,17:55,My Web Sites 	 	  	 
+ d-----,12/07/2025,18:51,PowerShell 	 	  	 
+ d-----,12/07/2025,18:39,WindowsPowerShell 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	 
+  ESSE EO PATH A INICIARC:\Users\kaiky\.gitignore
+  ESSE EO PATH A INICIARC:\Users\kaiky\.gitignore 	 
+ ------,10/03/2026,21:32,262 .deltabox 	 	  	 
+ -a----,10/03/2026,21:33,0 banana.txt 	 	  	 
+ -a----,10/03/2026,21:33,25 texto.txt 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,09/05/2026,20:17,DashBoardApp 	 	  	 
+ d-----,11/03/2026,12:26,Default 	 	  	 
+ d-----,07/03/2026,08:50,DefaultAppPool 	 	  	 
+ d-----,02/06/2026,13:05,kaiky 	 	  	 
+ d-r---,14/10/2024,10:05,Public 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	  	 
+ d-----,14/10/2025,17:34,.azuredatastudio 	 	  	 
+ d-----,29/09/2025,17:36,.cache 	 	  	 
+ d-----,02/03/2026,13:57,.copilot 	 	  	 
+ d-----,10/12/2025,08:52,.dacfx 	 	  	 
+ d-----,23/01/2026,13:09,.dbus-keyrings 	 	  	 
+ d-----,07/06/2026,08:09,.docker 	 	  	 
+ d-----,13/05/2026,09:34,.dotnet 	 	  	 
+ d-----,09/12/2025,11:05,.gnupg 	 	  	 
+ d-----,05/03/2024,20:35,.insomniac 	 	  	 
+ d-----,16/06/2025,17:17,.nuget 	 	  	 
+ d-----,04/01/2025,15:45,.omnisharp 	 	  	 
+ d-----,03/06/2025,17:17,.ssh 	 	  	 
+ d-----,19/11/2025,09:03,.templateengine 	 	  	 
+ d-----,26/09/2023,17:10,.vscode 	 	  	 
+ d-----,05/05/2026,20:26,.vscode-shared 	 	  	 
+ d-r---,14/10/2024,10:18,3D Objects 	 	  	 
+ d-----,05/10/2023,17:04,ansel 	 	  	 
+ d-r---,14/10/2024,10:18,Contacts 	 	  	 
+ d-----,14/10/2025,11:34,DataGripProjects 	 	  	 
+ d-----,18/03/2026,07:52,dockerFile 	 	  	 
+ d-----,26/09/2025,17:55,Documents 	 	  	 
+ d-----,28/04/2026,09:19,dotnet 	 	  	 
+ d-r---,05/06/2026,13:42,Downloads 	 	  	 
+ d-r---,14/10/2024,10:18,Favorites 	 	  	 
+ d-----,10/11/2025,11:25,html 	 	  	 
+ d-r---,14/10/2024,10:18,Links 	 	  	 
+ d-----,14/06/2025,10:21,onecoremsvsmon 	 	  	 
+ dar--l,23/02/2026,08:12,OneDrive 	 	  	 
+ d-----,26/09/2023,16:54,Pictures 	 	  	 
+ d-----,05/07/2025,09:44,Postman 	 	  	 
+ d-----,18/09/2025,16:46,Postman Agent 	 	  	 
+ d-----,01/06/2025,19:19,RiderProjects 	 	  	 
+ d-r---,13/12/2024,16:14,Saved Games 	 	  	 
+ d-r---,14/10/2024,10:18,Searches 	 	  	 
+ d-----,04/01/2025,16:53,source 	 	  	 
+ d-----,10/03/2026,21:33,teste 	 	  	 
+ d-----,07/06/2026,08:08,Videos 	 	  	 
+ -a----,20/10/2023,17:58,7003 -1.14-windows.xml 	 	  	 
+ -a----,18/03/2026,07:58,9166 .bash_history 	 	  	 
+ -a----,07/05/2025,16:56,201 .gitconfig 	 	  	 
+ -a----,10/11/2025,15:38,8430 .gitignore 	 	  	 
+ -a----,02/06/2026,13:05,20 .lesshst 	 	  	 
+ -a----,06/11/2025,11:25,18 .minttyrc 	 	  	 
+ -a----,13/02/2026,08:33,4211 .node_repl_history 	 	  	 
+ -a----,05/05/2026,20:19,0 .python_history 	 	  	 
+ -a----,27/05/2026,18:45,17520 .viminfo 	 	  	 
+ -a----,03/06/2025,16:53,839 cls 	 	  	 
+ -a----,12/04/2026,21:12,451 criando.cs 	 	  	 
+ -a----,04/05/2025,10:02,448 Este Computador - Atalho.lnk 	 	  	 
+ -a----,05/10/2023,16:55,131458368 GeForce_Experience_v3.27.0.112 (1).exe 	 	  	 
+ -a----,05/10/2023,16:54,131458368 GeForce_Experience_v3.27.0.112.exe 	 	  	 
+ -a----,15/01/2026,12:35,9011 Monetra-2026-1-15-12-34.bacpac 	 	  	 
+ -a----,17/09/2025,20:30,44156088 pemhttpd.exe 	 	  	 
+ -a----,12/07/2025,18:45,84 rider.cmd 	 	  	 
+ -a----,12/04/2026,20:43,135 teste.cs 	 	  	 
+ -a----,12/04/2026,20:50,128 testeNeoVim.cs 	 	 

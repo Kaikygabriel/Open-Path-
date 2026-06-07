@@ -1,0 +1,18 @@
+{
+  "Commands" : {
+    "GetFolder": "ls",
+    "Move": "mv",
+    "Copy": "cp",
+    "Remove" : "rm"
+  },
+  "Archives": {
+    "Profile" : "$HOME",
+    "Documents": "Join-Path $env:USERPROFILE \"Documents\"",
+    "Downloads": "Join-Path $env:USERPROFILE \"Downloads\"",
+    "Pictures": "Join-Path $env:USERPROFILE \"Pictures\"",
+    "Favorites": "Join-Path $env:USERPROFILE \"Favorites\""
+  },
+  "OneDrive" : {
+    "Command" : "(Get-ItemProperty `\n    \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\"\n).PSObject.Properties |\nSelect-Object Name, Value"
+  }
+}

@@ -1,0 +1,397 @@
+<UserControl
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:OpenPath.UI.ViewModels"
+    xmlns:model="using:OpenPath.UI.Models"
+    x:DataType="vm:ExplorerViewModel"
+    x:Class="OpenPath.UI.Views.ExplorerView">
+
+    <UserControl.DataContext>
+        <vm:ExplorerViewModel/>
+    </UserControl.DataContext>
+<UserControl.Resources>
+
+    <!-- Fundo estilo “glass” -->
+    <LinearGradientBrush x:Key="GlassMenuBackground" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#F7FFFFFF" Offset="0"/>
+        <GradientStop Color="#E8F3FBFF" Offset="0.55"/>
+        <GradientStop Color="#DCEAF6FF" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!-- Template para deixar o ContextMenu arredondado e com padding -->
+    <ControlTheme x:Key="GlassContextMenuTheme" TargetType="ContextMenu">
+        <Setter Property="Template">
+            <ControlTemplate>
+                <Border
+                    Background="{DynamicResource GlassMenuBackground}"
+                    BorderBrush="#80FFFFFF"
+                    BorderThickness="1"
+                    CornerRadius="14"
+                    Padding="12,10">
+                    <ItemsPresenter/>
+                </Border>
+            </ControlTemplate>
+        </Setter>
+    </ControlTheme>
+
+    <ContextMenu x:Key="FileContextMenu">
+        <MenuItem Header="Deletar" Click="OnDeleteClick"/>
+        <MenuItem Header="Renomear" Click="OnRenameClick"/>
+        <Separator/>
+        <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
+        <MenuItem Header="Copiar path" Click="OnCopyPathClick"/>
+    </ContextMenu>
+
+    <ContextMenu x:Key="FolderContextMenu">
+        <MenuItem Header="Deletar" Click="OnDeleteClick"/>
+        <MenuItem Header="Renomear" Click="OnRenameClick"/>
+        <Separator/>
+        <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
+        <MenuItem Header="Copiar path" Click="OnCopyPathClick"/>
+    </ContextMenu>
+
+    <ContextMenu x:Key="BackgroundContextMenu">
+        <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
+
+        <MenuItem Header="Novo">
+            <MenuItem Header="Novo arquivo" Click="OnNewFileClick"/>
+            <MenuItem Header="Nova pasta" Click="OnNewFolderClick"/>
+        </MenuItem>
+    </ContextMenu>
+
+</UserControl.Resources>
+
+<UserControl.Styles>
+
+    <!-- Aplica o mesmo tema em todos os ContextMenus -->
+    <Style Selector="ContextMenu">
+        <Setter Property="Theme" Value="{StaticResource GlassContextMenuTheme}" />
+    </Style>
+
+    <!-- Estilo dos itens -->
+    <Style Selector="ContextMenu MenuItem">
+        <Setter Property="Padding" Value="16,10" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Foreground" Value="#1F2937" />
+    </Style>
+
+    <!-- Hover -->
+    <Style Selector="ContextMenu MenuItem:pointerover">
+        <Setter Property="Background" Value="#66FFFFFF" />
+    </Style>
+
+    <Style Selector="ContextMenu MenuItem:pressed">
+        <Setter Property="Background" Value="#99FFFFFF" />
+    </Style>
+
+</UserControl.Styles>
+
+    <Grid RowDefinitions="58,*" Background="#EEF2F7">
+
+        <Border
+            Grid.Row="0"
+            Background="#F7F8FA"
+            BorderBrush="#E5E7EB"
+            BorderThickness="0,0,0,1"
+            Padding="12,0">
+
+            <Grid ColumnDefinitions="Auto,Auto,*,260" VerticalAlignment="Center">
+
+                <Button
+                    Width="28"
+                    Height="28"
+                    Margin="0,0,6,0"
+                    Background="#FFFFFF"
+                    BorderBrush="#D1D5DB"
+                    BorderThickness="1"
+                    CornerRadius="14"
+                    Click="OnBackClick">
+                    <TextBlock
+                        Text="‹"
+                        FontSize="22"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="#4B5563" />
+                </Button>
+
+                <Button
+                    Grid.Column="1"
+                    Width="28"
+                    Height="28"
+                    Margin="0,0,12,0"
+                    Background="#FFFFFF"
+                    BorderBrush="#D1D5DB"
+                    BorderThickness="1"
+                    CornerRadius="14"
+                    Click="OnForwardClick">
+                    <TextBlock
+                        Text="›"
+                        FontSize="22"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Foreground="#4B5563" />
+                </Button>
+
+                <Border
+                    Grid.Column="2"
+                    Height="34"
+                    Margin="0,0,12,0"
+                    Background="#EEF1F5"
+                    BorderBrush="#D8DEE8"
+                    BorderThickness="1"
+                    CornerRadius="12"
+                    VerticalAlignment="Center"
+                    Padding="10,0">
+
+                    <Grid ColumnDefinitions="Auto,*" VerticalAlignment="Center">
+                        <TextBlock
+                            Grid.Column="1"
+                            Text="{Binding CurrentDirectory.Path}"
+                            VerticalAlignment="Center"
+                            Foreground="#1F2937"
+                            TextTrimming="CharacterEllipsis" />
+                    </Grid>
+                </Border>
+
+                <Border
+                    Grid.Column="3"
+                    Background="#EEF1F5"
+                    BorderBrush="#D8DEE8"
+                    BorderThickness="1"
+                    CornerRadius="12"
+                    Height="34"
+                    VerticalAlignment="Center"
+                    Padding="10,0">
+                    <Grid ColumnDefinitions="Auto,*" VerticalAlignment="Center">
+                        <TextBlock
+                            Text="⌕"
+                            FontSize="15"
+                            Margin="0,0,8,0"
+                            VerticalAlignment="Center"
+                            Foreground="#6B7280" />
+
+                        <TextBox
+                            Grid.Column="1"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Watermark="Pesquisar"
+                            VerticalAlignment="Center" />
+                    </Grid>
+                </Border>
+
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1" ColumnDefinitions="250,*" MinWidth="0">
+
+            <Border
+                Background="#FAFBFD"
+                BorderBrush="#E5EAF1"
+                BorderThickness="0,0,1,0"
+                Padding="14,18"
+                HorizontalAlignment="Stretch">
+
+                <StackPanel Spacing="16" HorizontalAlignment="Stretch">
+
+                    <TextBlock
+                        Text="Favoritos"
+                        FontSize="13"
+                        FontWeight="SemiBold"
+                        Foreground="#65758B" />
+
+                    <StackPanel Spacing="8" HorizontalAlignment="Stretch">
+
+                        <Button
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="8,8"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Click="OnHomeClick">
+                            <TextBlock Text="🏠 Início" Foreground="#1F2937" />
+                        </Button>
+
+                        <Button
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="8,8"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Click="OnDocumentClick">
+                            <TextBlock Text="📂 Documentos" Foreground="#1F2937" />
+                        </Button>
+
+                        <Button
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="8,8"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Click="OnDownloadClick">
+                            <TextBlock Text="📥 Downloads" Foreground="#1F2937" />
+                        </Button>
+
+                        <Button
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="8,8"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left">
+                            <TextBlock Text="🖼️ Imagens" Foreground="#1F2937" />
+                        </Button>
+
+                        <Button
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="8,8"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Click="OnFavoritesClick">
+                            <TextBlock Text="⭐ Favoritos" Foreground="#1F2937" />
+                        </Button>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+
+            <Border
+                Grid.Column="1"
+                Background="Transparent"
+                ContextMenu="{StaticResource BackgroundContextMenu}"
+                ContextRequested="OnBackgroundContextRequested">
+
+                <ScrollViewer
+                    VerticalScrollBarVisibility="Auto"
+                    HorizontalScrollBarVisibility="Disabled"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    Padding="20,20,20,80">
+
+                    <Grid RowDefinitions="Auto,Auto,Auto" MinWidth="0" HorizontalAlignment="Stretch">
+
+                        <StackPanel Grid.Row="0" Spacing="4" Margin="0,0,0,22">
+                            <TextBlock
+                                Text="{Binding CurrentDirectory.Name}"
+                                FontSize="28"
+                                FontWeight="SemiBold"
+                                Foreground="#111827" />
+                            <TextBlock
+                                Text="Explore suas pastas e arquivos"
+                                FontSize="13"
+                                Foreground="#6B7280" />
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="1" Spacing="10" Margin="0,0,0,22">
+                            <TextBlock
+                                Text="Pastas"
+                                FontSize="16"
+                                FontWeight="SemiBold"
+                                Foreground="#1F2937" />
+
+                            <ItemsControl ItemsSource="{Binding CurrentDirectory.Directories}"
+                                          HorizontalAlignment="Stretch">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <WrapPanel Orientation="Horizontal" />
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="model:Directory">
+                                        <Button
+                                            Background="Transparent"
+                                            BorderThickness="0"
+                                            Padding="0"
+                                            Margin="0,0,12,12"
+                                            Click="OnFolderClick"
+                                            ContextMenu="{StaticResource FolderContextMenu}"
+                                            ContextRequested="OnFolderContextRequested">
+                                            <Border
+                                                Width="160"
+                                                Padding="12"
+                                                Background="#F5F8FD"
+                                                BorderBrush="#DAE3F0"
+                                                BorderThickness="1"
+                                                CornerRadius="12"
+                                                ToolTip.Tip="{Binding Path}">
+                                                <StackPanel Spacing="6">
+                                                    <Image
+                                                        Source="/Assets/directory.png"
+                                                        Width="34"
+                                                        Height="34"/>
+                                                    <TextBlock
+                                                        Text="{Binding Name}"
+                                                        FontWeight="SemiBold"
+                                                        Foreground="#1F2937"
+                                                        TextWrapping="Wrap"
+                                                        TextTrimming="CharacterEllipsis"
+                                                        MaxHeight="36" />
+                                                </StackPanel>
+                                            </Border>
+                                        </Button>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="2" Spacing="10" Margin="0,0,0,20">
+                            <TextBlock
+                                Text="Arquivos"
+                                FontSize="16"
+                                FontWeight="SemiBold"
+                                Foreground="#1F2937" />
+
+                            <ItemsControl ItemsSource="{Binding CurrentDirectory.Files}"
+                                          HorizontalAlignment="Stretch">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <WrapPanel Orientation="Horizontal" />
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="model:File">
+                                        <Button
+                                            Background="Transparent"
+                                            BorderThickness="0"
+                                            Padding="0"
+                                            Margin="0,0,12,12"
+                                            Click="OnFileClick"
+                                            ContextMenu="{StaticResource FileContextMenu}"
+                                            ContextRequested="OnFileContextRequested">
+                                            <Border
+                                                Width="160"
+                                                Padding="12"
+                                                Background="#FFFFFF"
+                                                BorderBrush="#E5EAF1"
+                                                BorderThickness="1"
+                                                CornerRadius="12"
+                                                ToolTip.Tip="{Binding Path}">
+                                                <StackPanel Spacing="6">
+                                                    <Image
+                                                        Source="/Assets/file.png"
+                                                        Width="35"
+                                                        Height="35"/>
+                                                    <TextBlock
+                                                        Text="{Binding Name}"
+                                                        Foreground="#374151"
+                                                        TextWrapping="Wrap"
+                                                        TextTrimming="CharacterEllipsis"
+                                                        MaxHeight="36" />
+                                                </StackPanel>
+                                            </Border>
+                                        </Button>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                    </Grid>
+                </ScrollViewer>
+            </Border>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,17 @@
+{
+  "Commands" : {
+    "GetFolder": "ls",
+    "Move": "mv",
+    "Copy": "cp",
+    "Remove" : "rm",
+    "GetFile" : "start"
+  },
+  "Archives": {
+    "Profile" : "$HOME",
+    "Documents": "Join-Path $env:USERPROFILE \"Documents\"",
+    "Downloads": "Join-Path $env:USERPROFILE \"Downloads\"",
+    "Pictures": "Join-Path $env:USERPROFILE \"Pictures\"",
+    "Favorites": "Join-Path $env:USERPROFILE \"Favorites\""
+  },
+  "Tool" : "powershell.exe"
+}
