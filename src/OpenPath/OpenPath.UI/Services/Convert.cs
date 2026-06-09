@@ -1,6 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Text.RegularExpressions;
+using OpenPath.UI.Enuns;
 using OpenPath.UI.Models;
 
 namespace OpenPath.UI.Services;
@@ -90,5 +93,108 @@ public class ConvertApp
         }
 
         return directoryCreate;
+    }
+
+    public static List<Partition> GetPartitionsFromWindows(string data)
+    {
+        // System.IO.File.AppendAllText(
+        //     @"debug.txt",
+        //     $" \t \n  DATAAAAAAAAA :::::::: {data} \t \t ");
+
+        var teste = JsonSerializer.Deserialize<List<Partition>>(data);
+        foreach(var p in teste)
+        {
+            System.IO.File.AppendAllText(
+                @"debug.txt",
+                $" \t \n {JsonSerializer.Serialize(p)} \t \t ");
+            p.Type = GetDriveType(p.DriveType);
+        }
+        
+        return teste;
+        // var list = new List<Partition>();
+        // var lines = data.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+        //
+        //
+        // System.IO.File.AppendAllText(
+        //     @"debug.txt",
+        //     $" \t \n  LINES :  {lines.Length} \t \t ");
+        //
+        // foreach (var line in lines)
+        // {
+        //     var trimmed = line.TrimStart();
+        //
+        //     // Ignora cabeçalho e linha separadora
+        //     if (trimmed.Equals("-----------") || trimmed.StartsWith("DriveLetter"))
+        //         continue;
+        //
+        //     // Separa por 2 ou mais espaços, que é como a tabela está formatada
+        //     var parts = Regex.Split(trimmed, @"\s{2,}")
+        //         .Where(part => !string.IsNullOrWhiteSpace(part))
+        //         .ToArray();
+        //
+        //     System.IO.File.AppendAllText(
+        //         @"debug.txt",
+        //         $" \t \n  LINES  OF LINE:  {parts.Length} -- {string.Join(',', parts)} \t \t ");
+        // }
+        //
+        // foreach (var line in lines)
+        // {
+        //     var trimmed = line.TrimStart();
+        //
+        //     // Ignora cabeçalho e linha separadora
+        //     if (trimmed.Equals("-----------") || trimmed.StartsWith("DriveLetter"))
+        //         continue;
+        //
+        //     // Separa por 2 ou mais espaços, que é como a tabela está formatada
+        //     var parts = Regex.Split(trimmed, @"\s{2,}")
+        //         .Where(part => !string.IsNullOrWhiteSpace(part))
+        //         .ToList();
+        //
+        //     System.IO.File.AppendAllText(
+        //         @"debug.txt",
+        //         $" \t \n  LINES  OF LINE:  {parts.Count} -- {string.Join(',',parts)} \t \t ");
+        //
+        //     if (parts.Count < 5 && parts.Count != 4)
+        //         continue;
+        //
+        //     var name = "";
+        //     var systemType = "";
+        //     if (parts.Count == 4 )
+        //     {
+        //         var listNameAndFileSystem = parts[1].Split(' ');
+        //         var last = listNameAndFileSystem.Last();
+        //         name = string.Join(' ', listNameAndFileSystem.Where(x=>x != last).ToList());
+        //         systemType = last;
+        //     }
+        //     else
+        //     {
+        //         name = parts[1];
+        //         systemType = parts[2];
+        //     }
+        //     
+        //     var driverLetter  = parts[0];
+        //     var driveType = parts[3];
+        //     var tryGetSizeFree = float.TryParse(parts[6],out float sizeFree);
+        //     var tryGetSizeTotal = float.TryParse(parts[7],out float sizeTotal);
+        //     
+        //     if (string.IsNullOrEmpty(driverLetter) ||
+        //         string.IsNullOrEmpty(systemType) ||
+        //         string.IsNullOrEmpty(driveType) ||
+        //         !tryGetSizeFree ||
+        //         !tryGetSizeTotal )
+        //         continue;
+        //     
+        //     list.Add(new (driverLetter + "/",name,systemType,sizeFree,sizeTotal,GetDriveType(driveType)));
+        // }
+        //
+        // return list;
+    }
+
+    private static EDriveType GetDriveType(string type)
+    {
+        if (type.Equals("Fixed"))
+            return EDriveType.Fixed;
+        
+        return EDriveType.Removable;
     }
 }

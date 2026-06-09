@@ -4,7 +4,8 @@
     "Move": "mv",
     "Copy": "cp",
     "Remove" : "rm",
-    "GetFile" : "start"
+    "GetFile" : "start",
+    "GetPartitions": "Get-Volume | Where-Object DriveLetter -ne $null | Select-Object DriveLetter, FileSystemLabel, FileSystemType, DriveType, @{Name='SizeRemainingGB'; Expression={[math]::round($_.SizeRemaining / 1GB, 2)}}, @{Name='SizeGB'; Expression={[math]::round($_.Size / 1GB, 2)}} | ConvertTo-Json"
   },
   "Archives": {
     "Profile" : "$HOME",

@@ -1,9 +1,11 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using OpenPath.UI.Models;
+using OpenPath.UI.Services;
 
 namespace OpenPath.UI.ViewModels;
 
@@ -14,6 +16,18 @@ public class ExplorerViewModel : INotifyPropertyChanged
         Name = "Carregando..."
     };
 
+    private List<Partition> _partitions = [];
+    
+    public List<Partition> Partitions
+    {
+        get => _partitions;
+        set
+        {
+            _partitions = value;
+            OnPropertyChanged();
+        }
+    }
+    
     public string Next { get; set; }= "";
     public string Previous { get; set; } = "";
     public Directory CurrentDirectory
@@ -81,6 +95,10 @@ public class ExplorerViewModel : INotifyPropertyChanged
             var path = await manager.GetArchive(manager.Archives.Profile);
             
             CurrentDirectory = await manager.GetFiles(path);
+
+            Partitions = ConvertApp.GetPartitionsFromWindows(await manager.GetPartition());
+            
+
         }
         catch(Exception e )
         {

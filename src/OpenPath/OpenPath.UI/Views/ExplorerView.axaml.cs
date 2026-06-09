@@ -202,6 +202,11 @@ public partial class ExplorerView : UserControl
     
     //ACLKSDJLFÇSFÇFÇFÇFÇFÇFÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFFçç
     
+    
+    private void OnPartitionClick(object? sender, RoutedEventArgs routedEventArgs)
+    {
+    }
+        
     private void OnFileContextRequested(object? sender, ContextRequestedEventArgs e)
     {
     }

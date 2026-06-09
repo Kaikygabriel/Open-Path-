@@ -86,6 +86,33 @@ public class ManagerCommands
         return output;
     }
 
+    public async Task<string> GetPartition()
+    {
+        var process = new Process();
+        
+        process.StartInfo.FileName = Tool;
+        process.StartInfo.Arguments = $"-Command {Commands.GetPartitions}";
+        process.StartInfo.RedirectStandardOutput = true;
+        process.StartInfo.RedirectStandardError = true;
+        process.StartInfo.UseShellExecute = false;
+        process.StartInfo.CreateNoWindow = true;
+        
+        process.Start();
+
+        string output = await process.StandardOutput.ReadToEndAsync();
+        string error = await process.StandardError.ReadToEndAsync();
+
+        if (process.ExitCode != 0)
+        {
+            System.IO.File.AppendAllText(
+                @"debug.txt",
+                $"\n         ExitCode: {process.ExitCode}\n        Output: {output}\n        Error: {error}\n        ");
+            // Faça algo com a string 'error' aqui (ex: log ou lançar exception)
+        }  
+        
+        return output;
+    }
+    
     public async Task OpenFile(string path, string? program = null)
     {
         System.IO.File.AppendAllText(
@@ -94,7 +121,7 @@ public class ManagerCommands
         using var process = new Process();
     
         process.StartInfo.FileName = Tool;
-        process.StartInfo.Arguments = $"""-Command Start-Process -FilePath '{path}' """;
+        process.StartInfo.Arguments = $"""-Command start '{path}' """;
         process.StartInfo.RedirectStandardOutput = true;
         process.StartInfo.RedirectStandardError = true;
         process.StartInfo.UseShellExecute = false;
