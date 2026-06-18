@@ -97,12 +97,9 @@ public class ExplorerViewModel : INotifyPropertyChanged
             CurrentDirectory = await manager.GetFiles(path);
 
             Partitions = ConvertApp.GetPartitionsFromWindows(await manager.GetPartition());
-            
-
         }
         catch(Exception e )
         {
-                   
             await System.IO.File.AppendAllTextAsync(
                 @"debug.txt",
                 $" \t \n  exceção {e .Message} \t \t ");
@@ -120,6 +117,4 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
-    
-    
 }

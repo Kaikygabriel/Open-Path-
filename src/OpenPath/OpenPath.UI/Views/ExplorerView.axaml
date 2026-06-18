@@ -48,7 +48,7 @@
         </ControlTheme>
 
         <ContextMenu x:Key="FileContextMenu">
-            <MenuItem Header="Abrir" Click="OnDeleteClick"/>
+            <MenuItem Header="Abrir" Click="OnOpenFileClickMenuItem"/>
             <MenuItem Header="Deletar" Click="OnDeleteClick"/>
             <MenuItem Header="Renomear" Click="OnRenameClick"/>
             <Separator/>
@@ -57,7 +57,7 @@
         </ContextMenu>
 
         <ContextMenu x:Key="FolderContextMenu">
-            <MenuItem Header="Abrir" Click="OnDeleteClick"/>
+            <MenuItem Header="Abrir" Click="OnOpenFolderClickMenuItem"/>
             <MenuItem Header="Deletar" Click="OnDeleteClick"/>
             <MenuItem Header="Renomear" Click="OnRenameClick"/>
             <Separator/>
@@ -231,6 +231,7 @@
                     BorderBrush="#D1D5DB"
                     BorderThickness="1"
                     CornerRadius="14"
+                    
                     Click="OnBackClick">
                     <TextBlock
                         Text="‹"
@@ -553,7 +554,8 @@
                                             BorderThickness="0"
                                             Padding="0"
                                             Margin="0,0,12,12"
-                                            Click="OnFolderClick"
+                                            
+                                            DoubleTapped="OnFolderClick"
                                             ContextMenu="{StaticResource FolderContextMenu}"
                                             ContextRequested="OnFolderContextRequested">
                                             <Border
@@ -606,7 +608,7 @@
                                             BorderThickness="0"
                                             Padding="0"
                                             Margin="0,0,12,12"
-                                            Click="OnFileClick"
+                                            DoubleTapped="OnFileClick"
                                             ContextMenu="{StaticResource FileContextMenu}"
                                             ContextRequested="OnFileContextRequested">
                                             <Border

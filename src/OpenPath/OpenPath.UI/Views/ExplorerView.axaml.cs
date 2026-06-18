@@ -2,6 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Avalonia.Controls;
 using Avalonia.Input;
+using Avalonia.Input.Platform;
 using Avalonia.Interactivity;
 using OpenPath.UI.Models;
 using OpenPath.UI.ViewModels;
@@ -28,9 +29,9 @@ public partial class ExplorerView : UserControl
                     await manager.GetFiles(await manager.GetArchive(manager.Archives.Profile));
             }
         }
-        catch 
+        catch
         {
-           
+            // ignored
         }
     }
     
@@ -47,9 +48,9 @@ public partial class ExplorerView : UserControl
                     await manager.GetFiles(await manager.GetArchive(manager.Archives.Documents));
             }
         }
-        catch 
+        catch
         {
-           
+            // ignored
         }
     }
     private async void OnDownloadClick(object? sender, RoutedEventArgs e)
@@ -65,9 +66,9 @@ public partial class ExplorerView : UserControl
                     await manager.GetFiles(await manager.GetArchive(manager.Archives.Downloads));
             }
         }
-        catch 
+        catch
         {
-           
+            // ignored
         }
     }
     private async void OnFavoritesClick(object? sender, RoutedEventArgs e)
@@ -85,7 +86,7 @@ public partial class ExplorerView : UserControl
         }
         catch 
         {
-           
+            // ignored
         }
     }
     private async void OnPicturesClick(object? sender, RoutedEventArgs e)
@@ -103,7 +104,7 @@ public partial class ExplorerView : UserControl
         }
         catch 
         {
-           
+            // ignored
         }
     }
     
@@ -172,7 +173,7 @@ public partial class ExplorerView : UserControl
         }
         catch (Exception ex)
         {
-           
+            // ignored
         }
     }
 
@@ -202,6 +203,13 @@ public partial class ExplorerView : UserControl
     
     //ACLKSDJLFÇSFÇFÇFÇFÇFÇFÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFSÇFFçç
     
+    private async void OnOpenFolderClickMenuItem(object? sender, RoutedEventArgs e)
+    {
+        if (sender is not MenuItem { DataContext: Directory folder })
+            return;
+
+        await OnFolderSelected(folder.Path);
+    }
     
     private void OnPartitionClick(object? sender, RoutedEventArgs routedEventArgs)
     {
@@ -218,6 +226,13 @@ public partial class ExplorerView : UserControl
     private void OnBackgroundContextRequested(object? sender, ContextRequestedEventArgs e)
     {
     }
+    private void OnOpenFileClickMenuItem(object? sender, RoutedEventArgs e)
+    {
+        if (sender is MenuItem { DataContext: File file })
+        {
+            OnFileSelected(file.Path);
+        }
+    }
     
     private void OnDeleteClick(object? sender, RoutedEventArgs e)
     {
@@ -227,12 +242,40 @@ public partial class ExplorerView : UserControl
     {
     }
     
-    private void OnRefreshClick(object? sender, RoutedEventArgs e)
+    private async void OnRefreshClick(object? sender, RoutedEventArgs e)
     {
+        try
+        {
+            if (DataContext is ExplorerViewModel vm)
+            {
+                var manager = new ManagerCommands(
+                    @"Assets\SystemCommandsWindows.json");
+                
+                vm.CurrentDirectory =
+                    await manager.GetFiles(vm.CurrentDirectory.Path);
+            }
+        }
+        catch (Exception ex)
+        {
+            // ignored
+        }
     }
     
-    private void OnCopyPathClick(object? sender, RoutedEventArgs e)
+    private async void OnCopyPathClick(object? sender, RoutedEventArgs e)
     {
+        var topLevel = TopLevel.GetTopLevel(this);
+
+        if (sender is MenuItem { DataContext: File file })
+            if (topLevel?.Clipboard is not null)
+            {
+                await topLevel.Clipboard.SetTextAsync(file.Path);
+            }
+        
+        if (sender is MenuItem { DataContext: Directory directory })
+            if (topLevel?.Clipboard is not null)
+            {
+                await topLevel.Clipboard.SetTextAsync(directory.Path);
+            }
     }
     
     private void OnNewFileClick(object? sender, RoutedEventArgs e)
