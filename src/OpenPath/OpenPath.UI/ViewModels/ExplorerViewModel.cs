@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using CommunityToolkit.Mvvm.ComponentModel;
 using OpenPath.UI.Models;
 using OpenPath.UI.Services;
 
@@ -17,7 +18,10 @@ public class ExplorerViewModel : INotifyPropertyChanged
     };
 
     private List<Partition> _partitions = [];
-    
+
+    private Directory? _selectedDirectory;
+    private File? _selectedFile;
+
     public List<Partition> Partitions
     {
         get => _partitions;
@@ -27,15 +31,32 @@ public class ExplorerViewModel : INotifyPropertyChanged
             OnPropertyChanged();
         }
     }
+    private bool _hasVisibleCreateFolder;
+
+    public bool HasVisibleCreateFolder
+    {
+        get => _hasVisibleCreateFolder;
+        set
+        {
+            if (_hasVisibleCreateFolder == value)
+                return;
+
+            _hasVisibleCreateFolder = value;
+            OnPropertyChanged();
+        }
+    }
     
-    public string Next { get; set; }= "";
+    public string FolderName { get; set; }
+    
+    public string Next { get; set; } = "";
     public string Previous { get; set; } = "";
+
     public Directory CurrentDirectory
     {
         get => _currentDirectory;
         set
         {
-            if (!string.IsNullOrEmpty(_currentDirectory.Path))
+            if (!string.IsNullOrEmpty(_currentDirectory.Path) && !string.IsNullOrEmpty(value.Path))
             {
                 if (_currentDirectory.Path.Split('/').Length > value.Path.Split('/').Length ||
                     _currentDirectory.Path.Split('\\').Length > value.Path.Split('\\').Length)
@@ -43,42 +64,125 @@ public class ExplorerViewModel : INotifyPropertyChanged
                     Next = _currentDirectory.Path;
                 }
             }
-            
+
             _currentDirectory = value;
-            
+
             if (OperatingSystem.IsWindows())
             {
-                var teste  = _currentDirectory.Path.Split('\\').ToList();
-                teste.Remove(teste.Last());
-                
-                if (teste.Count  >= 0)
-                {
-                    Previous = string.Join('\\',teste) ?? "";
-                }
-                else
-                {
-                    Previous = "";
-                }
+                var teste = _currentDirectory.Path.Split('\\').ToList();
+                if (teste.Count > 0)
+                    teste.Remove(teste.Last());
+
+                Previous = teste.Count > 0 ? string.Join('\\', teste) : "";
             }
             else
             {
-                var teste  = _currentDirectory.Path.Split('/').ToList();
-                teste.Remove(teste.Last());
-                
-                if (teste.Count  >= 0)
-                {
-                    Previous = string.Join('/',teste) ?? "";
-                }
-                else
-                {
-                    Previous = "";
-                }
-            } 
+                var teste = _currentDirectory.Path.Split('/').ToList();
+                if (teste.Count > 0)
+                    teste.Remove(teste.Last());
 
-            
+                Previous = teste.Count > 0 ? string.Join('/', teste) : "";
+            }
+
+            SelectedDirectory = null;
+            SelectedFile = null;
+
             OnPropertyChanged();
+            OnPropertyChanged(nameof(SelectedDirectory));
+            OnPropertyChanged(nameof(SelectedFile));
+            OnPropertyChanged(nameof(HasSelection));
+            OnPropertyChanged(nameof(SelectedName));
+            OnPropertyChanged(nameof(SelectedKind));
+            OnPropertyChanged(nameof(SelectedPath));
+            OnPropertyChanged(nameof(SelectedIcon));
+            OnPropertyChanged(nameof(SelectedPrimaryInfo));
+            OnPropertyChanged(nameof(SelectedModifiedText));
         }
     }
+
+    public Directory? SelectedDirectory
+    {
+        get => _selectedDirectory;
+        set
+        {
+            if (Equals(_selectedDirectory, value))
+                return;
+
+            _selectedDirectory = value;
+            if (value is not null)
+                _selectedFile = null;
+
+            OnPropertyChanged();
+            OnPropertyChanged(nameof(SelectedFile));
+            OnPropertyChanged(nameof(HasSelection));
+            OnPropertyChanged(nameof(SelectedName));
+            OnPropertyChanged(nameof(SelectedKind));
+            OnPropertyChanged(nameof(SelectedPath));
+            OnPropertyChanged(nameof(SelectedIcon));
+            OnPropertyChanged(nameof(SelectedPrimaryInfo));
+            OnPropertyChanged(nameof(SelectedModifiedText));
+        }
+    }
+
+    public File? SelectedFile
+    {
+        get => _selectedFile;
+        set
+        {
+            if (Equals(_selectedFile, value))
+                return;
+
+            _selectedFile = value;
+            if (value is not null)
+                _selectedDirectory = null;
+
+            OnPropertyChanged();
+            OnPropertyChanged(nameof(SelectedDirectory));
+            OnPropertyChanged(nameof(HasSelection));
+            OnPropertyChanged(nameof(SelectedName));
+            OnPropertyChanged(nameof(SelectedKind));
+            OnPropertyChanged(nameof(SelectedPath));
+            OnPropertyChanged(nameof(SelectedIcon));
+            OnPropertyChanged(nameof(SelectedPrimaryInfo));
+            OnPropertyChanged(nameof(SelectedModifiedText));
+        }
+    }
+
+    public bool HasSelection => SelectedDirectory is not null || SelectedFile is not null;
+
+    public string SelectedName =>
+        SelectedDirectory?.Name ??
+        SelectedFile?.Name ??
+        string.Empty;
+
+    public string SelectedKind =>
+        SelectedDirectory is not null ? "Pasta" :
+        SelectedFile is not null ? "Arquivo" :
+        string.Empty;
+
+    public string SelectedPath =>
+        SelectedDirectory?.Path ??
+        SelectedFile?.Path ??
+        string.Empty;
+
+    public string SelectedIcon =>
+        SelectedDirectory is not null ? "/Assets/directory.png" :
+        SelectedFile is not null ? "/Assets/file.png" :
+        string.Empty;
+
+    public string SelectedPrimaryInfo =>
+        SelectedDirectory is not null
+            ? $"{SelectedDirectory.Directories.Count} subpastas • {SelectedDirectory.Files.Count} arquivos"
+            : SelectedFile is not null
+                ? $"Tamanho: {FormatBytes(SelectedFile.Lenght)}"
+                : string.Empty;
+
+    public string SelectedModifiedText =>
+        SelectedDirectory is not null
+            ? $"Atualizado em: {SelectedDirectory.Date:dd/MM/yyyy HH:mm}"
+            : SelectedFile is not null
+                ? $"Modificado em: {SelectedFile.LastWriteTime:dd/MM/yyyy HH:mm}"
+                : string.Empty;
 
     public ExplorerViewModel()
     {
@@ -89,21 +193,20 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         try
         {
-            var manager = new ManagerCommands(
-                @"Assets/SystemCommandsWindows.json");
+            var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
 
             var path = await manager.GetArchive(manager.Archives.Profile);
-            
+
             CurrentDirectory = await manager.GetFiles(path);
 
             Partitions = ConvertApp.GetPartitionsFromWindows(await manager.GetPartition());
         }
-        catch(Exception e )
+        catch (Exception e)
         {
             await System.IO.File.AppendAllTextAsync(
                 @"debug.txt",
-                $" \t \n  exceção {e .Message} \t \t ");
-            
+                $" \t \n  exceção {e.Message} \t \t ");
+
             CurrentDirectory = new Directory
             {
                 Name = "Erro ao carregar"
@@ -111,10 +214,64 @@ public class ExplorerViewModel : INotifyPropertyChanged
         }
     }
 
+    private static string FormatBytes(long bytes)
+    {
+        string[] suffixes = ["B", "KB", "MB", "GB", "TB"];
+        double size = bytes;
+        int suffix = 0;
+
+        while (size >= 1024 && suffix < suffixes.Length - 1)
+        {
+            size /= 1024;
+            suffix++;
+        }
+
+        return $"{size:0.##} {suffixes[suffix]}";
+    }
+
     public event PropertyChangedEventHandler? PropertyChanged;
 
     private void OnPropertyChanged([CallerMemberName] string? propertyName = null)
     {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+
+    public void VisibleCreateFolder()
+    {
+        System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   VisibleCreateFolder");
+
+        HasVisibleCreateFolder = true;
+        OnPropertyChanged();
+    }
+    public void NoVisibleCreateFolder()
+    {
+        System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   VisibleCreateFolder");
+
+        HasVisibleCreateFolder = false;
+        OnPropertyChanged();
+    }
+    public async Task CreateFolderCommand()
+    {
+        try
+        {
+            if (string.IsNullOrWhiteSpace(FolderName))
+                return;
+
+            await CreateFolderAsync(FolderName);
+
+            FolderName = string.Empty;
+        }
+        finally
+        {
+            HasVisibleCreateFolder = false; 
+            OnPropertyChanged();
+        }
+    }
+
+    private async Task CreateFolderAsync(string name)
+    {
+        var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
+        await manager.Create(CurrentDirectory.Path,name);
+        CurrentDirectory = await manager.GetFiles(CurrentDirectory.Path);
     }
 }

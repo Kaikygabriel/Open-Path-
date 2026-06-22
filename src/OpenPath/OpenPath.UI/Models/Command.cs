@@ -19,6 +19,8 @@ public class Command
         GetPartitions = getPartitions;
     }
 
+    public string CreateFolder { get; set; }
+    public string CreateFile { get; set; }
     public string GetFolder { get; set; }
     public string Move { get; set; }
     public string Copy { get; set; }

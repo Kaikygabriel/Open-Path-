@@ -149,4 +149,37 @@ public class ManagerCommands
         }    
         
     }
+
+    public async Task Create(string path, string name)
+    {
+        using var process = new Process();
+    
+        process.StartInfo.FileName = Tool;
+        process.StartInfo.Arguments = $"""-Command {Commands.CreateFolder} {path}/{name} """;
+        process.StartInfo.RedirectStandardOutput = true;
+        process.StartInfo.RedirectStandardError = true;
+        process.StartInfo.UseShellExecute = false;
+        process.StartInfo.CreateNoWindow = true;
+        
+        process.Start();
+
+        // 2. Dispara a leitura de ambos os fluxos simultaneamente para evitar deadlocks
+        Task<string> outputTask = process.StandardOutput.ReadToEndAsync();
+        Task<string> errorTask = process.StandardError.ReadToEndAsync();
+
+        await Task.WhenAll(outputTask, errorTask, process.WaitForExitAsync());
+
+        string output = outputTask.Result;
+        string error = errorTask.Result;
+
+        
+        // Opcional: Tratar o erro se o processo falhar (ExitCode diferente de 0)
+        if (process.ExitCode != 0)
+        {
+            System.IO.File.AppendAllText(
+                @"debug.txt",
+                $"\n         ExitCode: {process.ExitCode}\n        Output: {output}\n        Error: {error}\n        ");
+            // Faça algo com a string 'error' aqui (ex: log ou lançar exception)
+        }    
+    }
 } 

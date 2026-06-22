@@ -1,5 +1,7 @@
 {
   "Commands" : {
+    "CreateFolder" : "mkdir",
+    "CreateFile" : "echo \"\" >",
     "GetFolder": "ls",
     "Move": "mv",
     "Copy": "cp",
