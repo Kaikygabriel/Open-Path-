@@ -782,7 +782,7 @@
             </Border>
         </Grid>
 
-        <Grid Grid.RowSpan="2"
+        <Grid Grid.Row="0" Grid.RowSpan="2"
               IsVisible="{Binding HasVisibleCreateFolder}"
               Background="#40000000"
               ZIndex="999"
@@ -840,6 +840,64 @@
             </Border>
         </Grid>
 
+        <Grid Grid.Row="0" Grid.RowSpan="2"
+              IsVisible="{Binding HasVisibleCreateFile}"
+              Background="#40000000"
+              ZIndex="999"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch">
+
+            <Border Width="340"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="#F8FAFC"
+                    BorderBrush="#E5EAF1"
+                    BorderThickness="1"
+                    CornerRadius="16"
+                    Padding="20">
+
+                <StackPanel Spacing="16">
+
+                    <TextBlock Text="Novo Arquivo"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Foreground="#111827"/>
+
+                    <Border Background="White"
+                            BorderBrush="#D1D5DB"
+                            BorderThickness="1"
+                            CornerRadius="12"
+                            Padding="12,8">
+
+                        <TextBox Text="{Binding FileName, Mode=TwoWay}"
+                                 Background="Transparent"
+                                 BorderThickness="0"
+                                 PlaceholderText="Digite o nome da pasta"/>
+                    </Border>
+
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Right"
+                                Spacing="10">
+
+                        <Button Content="Cancelar"
+                                Click="CancelCreateFile"
+                                Background="#111827"
+                                Foreground="White"
+                                BorderThickness="0"
+                                CornerRadius="10"/>
+                        
+                        <Button Content="Criar Arquivo"
+                                Click="CreateFileCommand"
+                                Background="#111827"
+                                Foreground="White"
+                                BorderThickness="0"
+                                CornerRadius="10"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+        
     </Grid>
 </UserControl>
                 

@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using CommunityToolkit.Mvvm.ComponentModel;
 using OpenPath.UI.Models;
 using OpenPath.UI.Services;
+using System.Text.Json;
 
 namespace OpenPath.UI.ViewModels;
 
@@ -31,6 +31,22 @@ public class ExplorerViewModel : INotifyPropertyChanged
             OnPropertyChanged();
         }
     }
+    
+    private bool _hasVisibleCreateFile;
+
+    public bool HasVisibleCreateFile
+    {
+        get => _hasVisibleCreateFile;
+        set
+        {
+            if (_hasVisibleCreateFile == value)
+                return;
+
+            _hasVisibleCreateFile = value;
+            OnPropertyChanged();
+        }
+    }
+    
     private bool _hasVisibleCreateFolder;
 
     public bool HasVisibleCreateFolder
@@ -46,6 +62,7 @@ public class ExplorerViewModel : INotifyPropertyChanged
         }
     }
     
+    public string FileName { get; set; }
     public string FolderName { get; set; }
     
     public string Next { get; set; } = "";
@@ -193,11 +210,17 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         try
         {
+            await System.IO.File.AppendAllTextAsync(
+                @"debug.txt",
+                $" \t \n  EXECUTOU \t \t ");
             var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
 
             var path = await manager.GetArchive(manager.Archives.Profile);
 
             CurrentDirectory = await manager.GetFiles(path);
+            await System.IO.File.AppendAllTextAsync(
+                @"debug.txt",
+                $" \t \n  {path} \t \t ");
 
             Partitions = ConvertApp.GetPartitionsFromWindows(await manager.GetPartition());
         }
@@ -205,7 +228,11 @@ public class ExplorerViewModel : INotifyPropertyChanged
         {
             await System.IO.File.AppendAllTextAsync(
                 @"debug.txt",
-                $" \t \n  exceção {e.Message} \t \t ");
+                $" \t \n  exceção {e.Message} {e.StackTrace} \t \t ");
+            
+            await System.IO.File.AppendAllTextAsync(
+                @"debug.txt",
+                $" \t \n  exceção {JsonSerializer.Serialize(e)} \t \t ");
 
             CurrentDirectory = new Directory
             {
@@ -236,17 +263,41 @@ public class ExplorerViewModel : INotifyPropertyChanged
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 
+    public void VisibleCreateFile()
+    {
+        HasVisibleCreateFile = true;
+        OnPropertyChanged();
+    }
+    public void NoVisibleCreateFile()
+    {
+        HasVisibleCreateFile = false;
+        OnPropertyChanged();
+    }
+    public async Task CreateFileCommand()
+    {
+        try
+        {
+            if (string.IsNullOrWhiteSpace(FileName))
+                return;
+
+            var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
+            await manager.CreateFile(CurrentDirectory.Path,FileName);
+            CurrentDirectory = await manager.GetFiles(CurrentDirectory.Path);
+            FileName = string.Empty;
+        }
+        finally
+        {
+            HasVisibleCreateFile = false; 
+            OnPropertyChanged();
+        }
+    }
     public void VisibleCreateFolder()
     {
-        System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   VisibleCreateFolder");
-
         HasVisibleCreateFolder = true;
         OnPropertyChanged();
     }
     public void NoVisibleCreateFolder()
     {
-        System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   VisibleCreateFolder");
-
         HasVisibleCreateFolder = false;
         OnPropertyChanged();
     }
@@ -271,7 +322,7 @@ public class ExplorerViewModel : INotifyPropertyChanged
     private async Task CreateFolderAsync(string name)
     {
         var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-        await manager.Create(CurrentDirectory.Path,name);
+        await manager.CreateFolder(CurrentDirectory.Path,name);
         CurrentDirectory = await manager.GetFiles(CurrentDirectory.Path);
     }
 }

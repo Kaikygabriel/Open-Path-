@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using OpenPath.UI.Services;
+using System.IO;
 
 namespace OpenPath.UI.Models;
 
@@ -46,26 +47,42 @@ public class ManagerCommands
     public string Tool { get; set; }
 
     public async Task<Directory> GetFiles(string path)
-    {
-        var process = new Process();
+    {   
+        path = path.Trim();
         
-        process.StartInfo.FileName = Tool;
-        process.StartInfo.Arguments = $"-Command \"{Commands.GetFolder}\" {path} ";
-        process.StartInfo.RedirectStandardOutput = true;
-        process.StartInfo.RedirectStandardError = true;
-        process.StartInfo.UseShellExecute = false;
-        process.StartInfo.CreateNoWindow = true;
+        path = path.Replace("\r", "")
+            .Replace("\n", "");
+        await System.IO.File.AppendAllTextAsync(
+            @"debug.txt",
+            $" \t \n  PATH : {path} \t \t ");
+        var directoryInfo = new DirectoryInfo(path);
+        var directory = new Directory()
+        {
+            Date = directoryInfo.CreationTime,
+            Name = directoryInfo.Name,
+            Path = directoryInfo.FullName,
+        };
+        foreach(var item in directoryInfo.GetDirectories())
+        {
+            directory.Directories.Add(new Directory()
+            {
+                Name = item.Name,
+                Path = item.FullName,
+                Date = item.LastWriteTime
+            });
+        }
 
-        process.Start();
-
-        string output = await process.StandardOutput.ReadToEndAsync();
-        string error = await process.StandardError.ReadToEndAsync();
-
-        await process.WaitForExitAsync();
-        
-        var response = ConvertApp.FromWindows(output,path);
-        
-        return response;
+        foreach (var item in directoryInfo.GetFiles())
+        {
+            directory.Files.Add(new File()
+            {
+                Name = item.Name,
+                Path = item.FullName,
+                LastWriteTime = item.LastWriteTime,
+                Lenght = item.Length
+            });
+        }
+        return await Task.FromResult(directory);
     }
     public async Task<string> GetArchive(string commandPath)
     {
@@ -150,12 +167,45 @@ public class ManagerCommands
         
     }
 
-    public async Task Create(string path, string name)
+    public async Task CreateFolder(string path, string name)
     {
         using var process = new Process();
     
         process.StartInfo.FileName = Tool;
         process.StartInfo.Arguments = $"""-Command {Commands.CreateFolder} {path}/{name} """;
+        process.StartInfo.RedirectStandardOutput = true;
+        process.StartInfo.RedirectStandardError = true;
+        process.StartInfo.UseShellExecute = false;
+        process.StartInfo.CreateNoWindow = true;
+        
+        process.Start();
+
+        // 2. Dispara a leitura de ambos os fluxos simultaneamente para evitar deadlocks
+        Task<string> outputTask = process.StandardOutput.ReadToEndAsync();
+        Task<string> errorTask = process.StandardError.ReadToEndAsync();
+
+        await Task.WhenAll(outputTask, errorTask, process.WaitForExitAsync());
+
+        string output = outputTask.Result;
+        string error = errorTask.Result;
+
+        
+        // Opcional: Tratar o erro se o processo falhar (ExitCode diferente de 0)
+        if (process.ExitCode != 0)
+        {
+            System.IO.File.AppendAllText(
+                @"debug.txt",
+                $"\n         ExitCode: {process.ExitCode}\n        Output: {output}\n        Error: {error}\n        ");
+            // Faça algo com a string 'error' aqui (ex: log ou lançar exception)
+        }    
+    }
+    
+    public async Task CreateFile(string path, string name)
+    {
+        using var process = new Process();
+    
+        process.StartInfo.FileName = Tool;
+        process.StartInfo.Arguments = $"""-Command {Commands.CreateFile} {path}/{name} """;
         process.StartInfo.RedirectStandardOutput = true;
         process.StartInfo.RedirectStandardError = true;
         process.StartInfo.UseShellExecute = false;

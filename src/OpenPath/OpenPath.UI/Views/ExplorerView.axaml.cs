@@ -281,6 +281,12 @@ public partial class ExplorerView : UserControl
 
     private void OnNewFileClick(object? sender, RoutedEventArgs e)
     {
+        if (DataContext is ExplorerViewModel vm)
+        {
+            System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   OnNewFolderClick");
+
+            vm.VisibleCreateFile();
+        }
     }
 
     private void OnNewFolderClick(object? sender, RoutedEventArgs e)
@@ -312,5 +318,20 @@ public partial class ExplorerView : UserControl
             vm.NoVisibleCreateFolder();
         }
     }
-    //CancelCreateFolder
+    private async void CreateFileCommand(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is ExplorerViewModel vm)
+        {
+            System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   OnNewFolderClick");
+
+            await vm.CreateFileCommand();
+        }
+    }
+    private async void CancelCreateFile(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is ExplorerViewModel vm)
+        {
+            vm.NoVisibleCreateFile();
+        }
+    }
 }

@@ -18,6 +18,6 @@ public sealed class File
     public string Path { get; set; }
     public string Name { get; set; }
     public string Extension { get; set; }
-    public int Lenght { get; set; }
+    public long Lenght { get; set; }
     public DateTime LastWriteTime { get; set; }
 }
