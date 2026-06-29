@@ -1,36 +1,13 @@
  	 
-  EXECUTOU 	 	  	 
-  exceção A sintaxe do nome do arquivo, do nome do diretório ou do rótulo do volume está incorreta. : 'C:\Users\kaiky
-'. 	 	  	 
-  EXECUTOU 	 	  	 
-  exceção Object reference not set to an instance of an object. 	 	  	 
-  EXECUTOU 	 	  	 
-  EXECUTOU 	 	  	 
-  EXECUTOU 	 	  	 
-  exceção Object reference not set to an instance of an object.    at OpenPath.UI.ViewModels.ExplorerViewModel.set_CurrentDirectory(Directory value) in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 89
-   at OpenPath.UI.ViewModels.ExplorerViewModel.LoadAsync() in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 220 	 	  	 
-  EXECUTOU 	 	  	 
-  PATH : C:\Users\kaiky 	 	  	 
-  exceção Object reference not set to an instance of an object.    at OpenPath.UI.ViewModels.ExplorerViewModel.set_CurrentDirectory(Directory value) in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 89
-   at OpenPath.UI.ViewModels.ExplorerViewModel.LoadAsync() in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 220 	 	  	 
-  EXECUTOU 	 	  	 
-  PATH : C:\Users\kaiky 	 	  	 
-  C:\Users\kaiky
- 	 	  	 
- {"DriveLetter":"C","FileSystemLabel":"ssd kingston","FileSystemType":"NTFS","SizeGB":237.93,"SizeRemainingGB":27.71,"DriveType":"Fixed","Type":0} 	 	  	 
+ {"DriveLetter":"C","FileSystemLabel":"ssd kingston","FileSystemType":"NTFS","SizeGB":237.93,"SizeRemainingGB":26.11,"DriveType":"Fixed","Type":0} 	 	  	 
  {"DriveLetter":"D","FileSystemLabel":"Reservado pelo Sistema","FileSystemType":"NTFS","SizeGB":0.05,"SizeRemainingGB":0.02,"DriveType":"Fixed","Type":0} 	 	  	 
  {"DriveLetter":"F","FileSystemLabel":"","FileSystemType":"NTFS","SizeGB":930.96,"SizeRemainingGB":904.46,"DriveType":"Fixed","Type":0} 	 	  	 
  {"DriveLetter":"E","FileSystemLabel":"Ventoy","FileSystemType":"Unknown","SizeGB":7.23,"SizeRemainingGB":1.77,"DriveType":"Removable","Type":0} 	 	  	 
-  PATH : C:\Users\kaiky\Videos 	 	  	 
-  PATH : C:\Users\kaiky 	 	  	 
-  PATH : C:\Users\kaiky\.azuredatastudio 	 	  	 
-  PATH : C:\Users\kaiky\.azuredatastudio\extensions 	 	  	 
-  PATH : C:\Users\kaiky\.azuredatastudio 	 	  	 
-  PATH : C:\Users\kaiky 	 	  	 
-  PATH : C:\Users\kaiky\dotnet 	 	  	 
-  PATH : C:\Users\kaiky\dotnet\workloads 	 	  	 
-  PATH : C:\Users\kaiky\dotnet\workloads\X64 	 	  	 
-  PATH : C:\Users\kaiky\dotnet\workloads 	 	  	 
-  PATH : C:\Users\kaiky\dotnet 	 	  	 
-  PATH : C:\Users\kaiky 	 	  	 
-  PATH : C:\Users 	 	 
+ {"DriveLetter":"C","FileSystemLabel":"ssd kingston","FileSystemType":"NTFS","SizeGB":237.93,"SizeRemainingGB":26.11,"DriveType":"Fixed","Type":0} 	 	  	 
+ {"DriveLetter":"D","FileSystemLabel":"Reservado pelo Sistema","FileSystemType":"NTFS","SizeGB":0.05,"SizeRemainingGB":0.02,"DriveType":"Fixed","Type":0} 	 	  	 
+ {"DriveLetter":"F","FileSystemLabel":"","FileSystemType":"NTFS","SizeGB":930.96,"SizeRemainingGB":904.46,"DriveType":"Fixed","Type":0} 	 	  	 
+ {"DriveLetter":"E","FileSystemLabel":"Ventoy","FileSystemType":"Unknown","SizeGB":7.23,"SizeRemainingGB":1.77,"DriveType":"Removable","Type":0} 	 	  	 
+ {"DriveLetter":"C","FileSystemLabel":"ssd kingston","FileSystemType":"NTFS","SizeGB":237.93,"SizeRemainingGB":26.11,"DriveType":"Fixed","Type":0} 	 	  	 
+ {"DriveLetter":"D","FileSystemLabel":"Reservado pelo Sistema","FileSystemType":"NTFS","SizeGB":0.05,"SizeRemainingGB":0.02,"DriveType":"Fixed","Type":0} 	 	  	 
+ {"DriveLetter":"F","FileSystemLabel":"","FileSystemType":"NTFS","SizeGB":930.96,"SizeRemainingGB":904.46,"DriveType":"Fixed","Type":0} 	 	  	 
+ {"DriveLetter":"E","FileSystemLabel":"Ventoy","FileSystemType":"Unknown","SizeGB":7.23,"SizeRemainingGB":1.77,"DriveType":"Removable","Type":0} 	 	 

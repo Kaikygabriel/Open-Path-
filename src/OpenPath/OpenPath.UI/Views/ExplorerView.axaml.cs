@@ -1,5 +1,4 @@
 using System;
-using System.Threading.Tasks;
 using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Input.Platform;
@@ -16,14 +15,14 @@ public partial class ExplorerView : UserControl
         InitializeComponent();
     }
 
-    private async void OnHomeClick(object? sender, RoutedEventArgs e)
+    private void OnHomeClick(object? sender, RoutedEventArgs e)
     {
         try
         {
             if (DataContext is ExplorerViewModel vm)
             {
                 var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = await manager.GetFiles(await manager.GetArchive(manager.Archives.Profile));
+                vm.CurrentDirectory = manager.GetFiles(Archives.Profile);
             }
         }
         catch
@@ -31,14 +30,14 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private async void OnDocumentClick(object? sender, RoutedEventArgs e)
+    private void OnDocumentClick(object? sender, RoutedEventArgs e)
     {
         try
         {
             if (DataContext is ExplorerViewModel vm)
             {
                 var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = await manager.GetFiles(await manager.GetArchive(manager.Archives.Documents));
+                vm.CurrentDirectory = manager.GetFiles(Archives.Documents);
             }
         }
         catch
@@ -46,14 +45,14 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private async void OnDownloadClick(object? sender, RoutedEventArgs e)
+    private void OnDownloadClick(object? sender, RoutedEventArgs e)
     {
         try
         {
             if (DataContext is ExplorerViewModel vm)
             {
                 var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = await manager.GetFiles(await manager.GetArchive(manager.Archives.Downloads));
+                vm.CurrentDirectory = manager.GetFiles(Archives.Downloads);
             }
         }
         catch
@@ -61,14 +60,14 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private async void OnFavoritesClick(object? sender, RoutedEventArgs e)
+    private void OnFavoritesClick(object? sender, RoutedEventArgs e)
     {
         try
         {
             if (DataContext is ExplorerViewModel vm)
             {
                 var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = await manager.GetFiles(await manager.GetArchive(manager.Archives.Favorites));
+                vm.CurrentDirectory =  manager.GetFiles(Archives.Favorites);
             }
         }
         catch
@@ -76,14 +75,14 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private async void OnPicturesClick(object? sender, RoutedEventArgs e)
+    private void OnPicturesClick(object? sender, RoutedEventArgs e)
     {
         try
         {
             if (DataContext is ExplorerViewModel vm)
             {
                 var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = await manager.GetFiles(await manager.GetArchive(manager.Archives.Pictures));
+                vm.CurrentDirectory = manager.GetFiles(Archives.Pictures);
             }
         }
         catch
@@ -120,12 +119,12 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private async void OnFolderClick(object? sender, RoutedEventArgs e)
+    private void OnFolderClick(object? sender, RoutedEventArgs e)
     {
         if (sender is not Button { DataContext: Directory folder })
             return;
 
-        await OnFolderSelected(folder.Path);
+        OnFolderSelected(folder.Path);
     }
 
     private void OnFileClick(object? sender, RoutedEventArgs e)
@@ -136,12 +135,12 @@ public partial class ExplorerView : UserControl
         OnFileSelected(file.Path);
     }
 
-    public async Task OnFolderSelected(string folderPath)
+    public void OnFolderSelected(string folderPath)
     {
         if (DataContext is ExplorerViewModel vm)
         {
             var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-            vm.CurrentDirectory = await manager.GetFiles(folderPath);
+            vm.CurrentDirectory =  manager.GetFiles(folderPath);
         }
     }
 
@@ -159,7 +158,7 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private async void OnBackClick(object? sender, RoutedEventArgs e)
+    private void OnBackClick(object? sender, RoutedEventArgs e)
     {
         try
         {
@@ -171,7 +170,7 @@ public partial class ExplorerView : UserControl
                 var manager = new ManagerCommands(@"Assets\SystemCommandsWindows.json");
 
                 if (!string.IsNullOrWhiteSpace(vm.Previous))
-                    vm.CurrentDirectory = await manager.GetFiles(vm.Previous);
+                    vm.CurrentDirectory =  manager.GetFiles(vm.Previous);
             }
         }
         catch
@@ -179,7 +178,7 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private async void OnForwardClick(object? sender, RoutedEventArgs e)
+    private void OnForwardClick(object? sender, RoutedEventArgs e)
     {
         try
         {
@@ -191,7 +190,7 @@ public partial class ExplorerView : UserControl
                 var manager = new ManagerCommands(@"Assets\SystemCommandsWindows.json");
 
                 if (!string.IsNullOrWhiteSpace(vm.Next))
-                    vm.CurrentDirectory = await manager.GetFiles(vm.Next);
+                    vm.CurrentDirectory =  manager.GetFiles(vm.Next);
             }
         }
         catch
@@ -199,12 +198,12 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private async void OnOpenFolderClickMenuItem(object? sender, RoutedEventArgs e)
+    private void OnOpenFolderClickMenuItem(object? sender, RoutedEventArgs e)
     {
         if (sender is not MenuItem { DataContext: Directory folder })
             return;
 
-        await OnFolderSelected(folder.Path);
+        OnFolderSelected(folder.Path);
     }
 
     private void OnPartitionClick(object? sender, RoutedEventArgs routedEventArgs)
@@ -239,14 +238,14 @@ public partial class ExplorerView : UserControl
     {
     }
 
-    private async void OnRefreshClick(object? sender, RoutedEventArgs e)
+    private void OnRefreshClick(object? sender, RoutedEventArgs e)
     {
         try
         {
             if (DataContext is ExplorerViewModel vm)
             {
                 var manager = new ManagerCommands(@"Assets\SystemCommandsWindows.json");
-                vm.CurrentDirectory = await manager.GetFiles(vm.CurrentDirectory.Path);
+                vm.CurrentDirectory = manager.GetFiles(vm.CurrentDirectory.Path);
             }
         }
         catch
@@ -282,56 +281,34 @@ public partial class ExplorerView : UserControl
     private void OnNewFileClick(object? sender, RoutedEventArgs e)
     {
         if (DataContext is ExplorerViewModel vm)
-        {
-            System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   OnNewFolderClick");
-
             vm.VisibleCreateFile();
-        }
+        
     }
 
     private void OnNewFolderClick(object? sender, RoutedEventArgs e)
     {
         if (DataContext is ExplorerViewModel vm)
-        {
-            System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   OnNewFolderClick");
-
             vm.VisibleCreateFolder();
-        }
-
     }
 
     private async void CreateFolderCommand(object? sender, RoutedEventArgs e)
     {
         if (DataContext is ExplorerViewModel vm)
-        {
-            System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   OnNewFolderClick");
-
             await vm.CreateFolderCommand();
-        }
     }
     private async void CancelCreateFolder(object? sender, RoutedEventArgs e)
     {
         if (DataContext is ExplorerViewModel vm)
-        {
-            System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   OnNewFolderClick");
-
             vm.NoVisibleCreateFolder();
-        }
     }
     private async void CreateFileCommand(object? sender, RoutedEventArgs e)
     {
         if (DataContext is ExplorerViewModel vm)
-        {
-            System.IO.File.AppendAllText(@"debug.txt", $"\n \t ENTROU AQUI NO   OnNewFolderClick");
-
             await vm.CreateFileCommand();
-        }
     }
     private async void CancelCreateFile(object? sender, RoutedEventArgs e)
     {
         if (DataContext is ExplorerViewModel vm)
-        {
             vm.NoVisibleCreateFile();
-        }
     }
 }

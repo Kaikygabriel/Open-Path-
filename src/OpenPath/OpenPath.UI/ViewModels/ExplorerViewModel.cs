@@ -6,7 +6,6 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using OpenPath.UI.Models;
 using OpenPath.UI.Services;
-using System.Text.Json;
 
 namespace OpenPath.UI.ViewModels;
 
@@ -65,8 +64,8 @@ public class ExplorerViewModel : INotifyPropertyChanged
     public string FileName { get; set; }
     public string FolderName { get; set; }
     
-    public string Next { get; set; } = "";
-    public string Previous { get; set; } = "";
+    public string Next { get; set; } = string.Empty;
+    public string Previous { get; set; } = string.Empty;
 
     public Directory CurrentDirectory
     {
@@ -86,19 +85,19 @@ public class ExplorerViewModel : INotifyPropertyChanged
 
             if (OperatingSystem.IsWindows())
             {
-                var teste = _currentDirectory.Path.Split('\\').ToList();
-                if (teste.Count > 0)
-                    teste.Remove(teste.Last());
+                var path = _currentDirectory.Path.Split('\\').ToList();
+                if (path.Count > 0)
+                    path.Remove(path.Last());
 
-                Previous = teste.Count > 0 ? string.Join('\\', teste) : "";
+                Previous = path.Count > 0 ? string.Join('\\', path) : string.Empty;
             }
             else
             {
-                var teste = _currentDirectory.Path.Split('/').ToList();
-                if (teste.Count > 0)
-                    teste.Remove(teste.Last());
+                var path = _currentDirectory.Path.Split('/').ToList();
+                if (path.Count > 0)
+                    path.Remove(path.Last());
 
-                Previous = teste.Count > 0 ? string.Join('/', teste) : "";
+                Previous = path.Count > 0 ? string.Join('/', path) : string.Empty;
             }
 
             SelectedDirectory = null;
@@ -210,17 +209,9 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         try
         {
-            await System.IO.File.AppendAllTextAsync(
-                @"debug.txt",
-                $" \t \n  EXECUTOU \t \t ");
             var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
 
-            var path = await manager.GetArchive(manager.Archives.Profile);
-
-            CurrentDirectory = await manager.GetFiles(path);
-            await System.IO.File.AppendAllTextAsync(
-                @"debug.txt",
-                $" \t \n  {path} \t \t ");
+            CurrentDirectory = manager.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile));
 
             Partitions = ConvertApp.GetPartitionsFromWindows(await manager.GetPartition());
         }
@@ -230,10 +221,6 @@ public class ExplorerViewModel : INotifyPropertyChanged
                 @"debug.txt",
                 $" \t \n  exceção {e.Message} {e.StackTrace} \t \t ");
             
-            await System.IO.File.AppendAllTextAsync(
-                @"debug.txt",
-                $" \t \n  exceção {JsonSerializer.Serialize(e)} \t \t ");
-
             CurrentDirectory = new Directory
             {
                 Name = "Erro ao carregar"
@@ -282,7 +269,7 @@ public class ExplorerViewModel : INotifyPropertyChanged
 
             var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
             await manager.CreateFile(CurrentDirectory.Path,FileName);
-            CurrentDirectory = await manager.GetFiles(CurrentDirectory.Path);
+            CurrentDirectory = manager.GetFiles(CurrentDirectory.Path);
             FileName = string.Empty;
         }
         finally
@@ -323,6 +310,6 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
         await manager.CreateFolder(CurrentDirectory.Path,name);
-        CurrentDirectory = await manager.GetFiles(CurrentDirectory.Path);
+        CurrentDirectory = manager.GetFiles(CurrentDirectory.Path);
     }
 }

@@ -1,11 +1,8 @@
 using System;
 using System.Text.Json;
-using OpenPath.UI.Configurations;
 using System.Diagnostics;
-using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using OpenPath.UI.Services;
 using System.IO;
 
 namespace OpenPath.UI.Models;
@@ -28,33 +25,27 @@ public class ManagerCommands
             manager =  JsonSerializer.Deserialize<ManagerCommands>(json);
             Tool = "powershell.exe";
         }
-
-        if (manager is null)
+        if (OperatingSystem.IsLinux())
         {
-        //     System.IO.File.AppendAllText(
-        //         @"debug.txt",
-        //         "\n Deu Exceção de null");
-        //
-        //     throw new NullReferenceException("Archives Commands Not Found");
-        }
+            var json = System.IO.File.ReadAllText(path); 
 
+            manager =  JsonSerializer.Deserialize<ManagerCommands>(json);
+            Tool = "/bin/bash";
+        }
+        
         Commands = manager.Commands;
-        Archives = manager.Archives;
     }
 
     public Command Commands { get; set; }
-    public Archives Archives { get; set; }
     public string Tool { get; set; }
 
-    public async Task<Directory> GetFiles(string path)
+    public Directory GetFiles(string path)
     {   
         path = path.Trim();
         
         path = path.Replace("\r", "")
             .Replace("\n", "");
-        await System.IO.File.AppendAllTextAsync(
-            @"debug.txt",
-            $" \t \n  PATH : {path} \t \t ");
+    
         var directoryInfo = new DirectoryInfo(path);
         var directory = new Directory()
         {
@@ -82,25 +73,7 @@ public class ManagerCommands
                 Lenght = item.Length
             });
         }
-        return await Task.FromResult(directory);
-    }
-    public async Task<string> GetArchive(string commandPath)
-    {
-        var process = new Process();
-        
-        process.StartInfo.FileName = Tool;
-        process.StartInfo.Arguments = $"-Command {commandPath}";
-        process.StartInfo.RedirectStandardOutput = true;
-        process.StartInfo.RedirectStandardError = true;
-        process.StartInfo.UseShellExecute = false;
-        process.StartInfo.CreateNoWindow = true;
-        
-        process.Start();
-
-        string output = await process.StandardOutput.ReadToEndAsync();
-        string error = await process.StandardError.ReadToEndAsync();
-
-        return output;
+        return directory;
     }
 
     public async Task<string> GetPartition()

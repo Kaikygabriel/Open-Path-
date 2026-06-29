@@ -9,12 +9,5 @@
     "GetFile" : "start",
     "GetPartitions": "Get-Volume | Where-Object DriveLetter -ne $null | Select-Object DriveLetter, FileSystemLabel, FileSystemType, DriveType, @{Name='SizeRemainingGB'; Expression={[math]::round($_.SizeRemaining / 1GB, 2)}}, @{Name='SizeGB'; Expression={[math]::round($_.Size / 1GB, 2)}} | ConvertTo-Json"
   },
-  "Archives": {
-    "Profile" : "$HOME",
-    "Documents": "Join-Path $env:USERPROFILE \"Documents\"",
-    "Downloads": "Join-Path $env:USERPROFILE \"Downloads\"",
-    "Pictures": "Join-Path $env:USERPROFILE \"Pictures\"",
-    "Favorites": "Join-Path $env:USERPROFILE \"Favorites\""
-  },
   "Tool" : "powershell.exe"
 }
