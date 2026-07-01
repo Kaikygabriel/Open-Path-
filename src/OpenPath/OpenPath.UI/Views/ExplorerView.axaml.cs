@@ -232,6 +232,23 @@ public partial class ExplorerView : UserControl
 
     private void OnDeleteClick(object? sender, RoutedEventArgs e)
     {
+        try
+        {
+            if (sender is MenuItem { DataContext: File file })
+            {
+                System.IO.File.Delete(file.Path);
+                OnRefreshClick(sender,e);
+            }
+            if (sender is MenuItem { DataContext: Directory directory })
+            {
+                System.IO.Directory.Delete(directory.Path);
+                OnRefreshClick(sender,e);
+            }
+        }
+        catch
+        {
+            // ignored
+        }
     }
 
     private void OnRenameClick(object? sender, RoutedEventArgs e)
@@ -242,7 +259,7 @@ public partial class ExplorerView : UserControl
     {
         try
         {
-            if (DataContext is ExplorerViewModel vm)
+            if (DataContext is ExplorerViewModel vm )
             {
                 var manager = new ManagerCommands(@"Assets\SystemCommandsWindows.json");
                 vm.CurrentDirectory = manager.GetFiles(vm.CurrentDirectory.Path);
