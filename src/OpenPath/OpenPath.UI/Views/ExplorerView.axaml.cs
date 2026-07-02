@@ -241,7 +241,7 @@ public partial class ExplorerView : UserControl
             }
             if (sender is MenuItem { DataContext: Directory directory })
             {
-                System.IO.Directory.Delete(directory.Path);
+                System.IO.Directory.Delete(directory.Path, true);
                 OnRefreshClick(sender,e);
             }
         }
