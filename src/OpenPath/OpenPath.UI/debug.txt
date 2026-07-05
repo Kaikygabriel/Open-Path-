@@ -1,0 +1,20 @@
+
+  ESSE EO PATH A INICIARC:\Users\kaiky\.gitconfig
+  ESSE EO PATH A INICIARC:\Users\kaiky\.gitignore
+  ESSE EO PATH A INICIARC:\Users\kaiky\.gitignore
+  ESSE EO PATH A INICIARC:\Users\kaiky\.gitconfig
+  ESSE EO PATH A INICIARC:\Users\kaiky\.gitignore
+  ESSE EO PATH A INICIARC:\Users\kaiky\.dotnet
+  ESSE EO PATH A INICIARC:\Users\kaiky\.dotnet
+  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\551-813-traduzido.pdf
+         ExitCode: 1
+        Output: 
+        Error: out-file : O processo nÆo pode acessar o arquivo 'C:\Users\kaiky\OlaMundo.txt' porque ele est  sendo usado por outro processo.
+No linha:1 caractere:1
++ echo  > C:\Users\kaiky/OlaMundo.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], IOException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+ 
+
+        

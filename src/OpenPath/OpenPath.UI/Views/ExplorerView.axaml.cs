@@ -10,8 +10,10 @@ namespace OpenPath.UI.Views;
 
 public partial class ExplorerView : UserControl
 {
+    private ManagerCommands _manager;
     public ExplorerView()
     {
+        _manager = new ManagerCommands();
         InitializeComponent();
     }
 
@@ -20,10 +22,7 @@ public partial class ExplorerView : UserControl
         try
         {
             if (DataContext is ExplorerViewModel vm)
-            {
-                var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = manager.GetFiles(Archives.Profile);
-            }
+                vm.CurrentDirectory = _manager.GetFiles(Archives.Profile);
         }
         catch
         {
@@ -35,10 +34,7 @@ public partial class ExplorerView : UserControl
         try
         {
             if (DataContext is ExplorerViewModel vm)
-            {
-                var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = manager.GetFiles(Archives.Documents);
-            }
+                vm.CurrentDirectory = _manager.GetFiles(Archives.Documents);
         }
         catch
         {
@@ -50,10 +46,7 @@ public partial class ExplorerView : UserControl
         try
         {
             if (DataContext is ExplorerViewModel vm)
-            {
-                var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = manager.GetFiles(Archives.Downloads);
-            }
+                vm.CurrentDirectory = _manager.GetFiles(Archives.Downloads);
         }
         catch
         {
@@ -65,10 +58,7 @@ public partial class ExplorerView : UserControl
         try
         {
             if (DataContext is ExplorerViewModel vm)
-            {
-                var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory =  manager.GetFiles(Archives.Favorites);
-            }
+                vm.CurrentDirectory =  _manager.GetFiles(Archives.Favorites);
         }
         catch
         {
@@ -80,10 +70,7 @@ public partial class ExplorerView : UserControl
         try
         {
             if (DataContext is ExplorerViewModel vm)
-            {
-                var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-                vm.CurrentDirectory = manager.GetFiles(Archives.Pictures);
-            }
+                vm.CurrentDirectory = _manager.GetFiles(Archives.Pictures);
         }
         catch
         {
@@ -119,41 +106,40 @@ public partial class ExplorerView : UserControl
         }
     }
 
-    private void OnFolderClick(object? sender, RoutedEventArgs e)
+    private async void OnFolderClick(object? sender, RoutedEventArgs e)
     {
-        if (sender is not Button { DataContext: Directory folder })
-            return;
-
-        OnFolderSelected(folder.Path);
+        if (sender is Button { DataContext: ExplorerViewModel vm } )
+            OnFolderSelected(vm.SelectedPath);
+        if (sender is Button { DataContext: Directory folder} )
+            OnFolderSelected(folder.Path);
     }
 
     private void OnFileClick(object? sender, RoutedEventArgs e)
     {
-        if (sender is not Button { DataContext: File file })
-            return;
-
-        OnFileSelected(file.Path);
+        if (sender is Button { DataContext: ExplorerViewModel vm } )
+        {
+            _manager.OpenFile(vm.SelectedPath);
+        }
+        if (sender is Button { DataContext: File file } )
+        {
+            _manager.OpenFile(file.Path);
+        }
     }
 
     public void OnFolderSelected(string folderPath)
     {
         if (DataContext is ExplorerViewModel vm)
-        {
-            var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-            vm.CurrentDirectory =  manager.GetFiles(folderPath);
-        }
+            vm.CurrentDirectory =  _manager.GetFiles(folderPath);
     }
 
-    public async void OnFileSelected(string filePath)
+    public void OnFileSelected(string filePath)
     {
         try
         {
-            var manager = new ManagerCommands(@"Assets\SystemCommandsWindows.json");
-            await manager.OpenFile(filePath);
+            _manager.OpenFile(filePath);
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
             System.IO.File.AppendAllText(@"debug.txt", $"\n \t DEU EXECÇEÂOOO  : \n \t {e.Message}");
         }
     }
@@ -167,10 +153,8 @@ public partial class ExplorerView : UserControl
                 if (string.IsNullOrEmpty(vm.Previous))
                     return;
 
-                var manager = new ManagerCommands(@"Assets\SystemCommandsWindows.json");
-
                 if (!string.IsNullOrWhiteSpace(vm.Previous))
-                    vm.CurrentDirectory =  manager.GetFiles(vm.Previous);
+                    vm.CurrentDirectory =  _manager.GetFiles(vm.Previous);
             }
         }
         catch
@@ -187,10 +171,8 @@ public partial class ExplorerView : UserControl
                 if (string.IsNullOrEmpty(vm.Next))
                     return;
 
-                var manager = new ManagerCommands(@"Assets\SystemCommandsWindows.json");
-
                 if (!string.IsNullOrWhiteSpace(vm.Next))
-                    vm.CurrentDirectory =  manager.GetFiles(vm.Next);
+                    vm.CurrentDirectory =  _manager.GetFiles(vm.Next);
             }
         }
         catch
@@ -208,6 +190,10 @@ public partial class ExplorerView : UserControl
 
     private void OnPartitionClick(object? sender, RoutedEventArgs routedEventArgs)
     {
+        if (sender is Button { DataContext: Partition drive } )
+        {
+            OnFolderSelected(drive.PathRootDirectory);
+        }
     }
 
     private void OnFileContextRequested(object? sender, ContextRequestedEventArgs e)
@@ -260,10 +246,8 @@ public partial class ExplorerView : UserControl
         try
         {
             if (DataContext is ExplorerViewModel vm )
-            {
-                var manager = new ManagerCommands(@"Assets\SystemCommandsWindows.json");
-                vm.CurrentDirectory = manager.GetFiles(vm.CurrentDirectory.Path);
-            }
+                vm.CurrentDirectory = _manager.GetFiles(vm.CurrentDirectory.Path);
+            
         }
         catch
         {

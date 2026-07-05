@@ -10,25 +10,21 @@ public sealed class Partition
     {
         
     }
-    
-    public Partition(string driveLetter, string fileSystemLabel, string fileSystemType, float sizeGb, float sizeRemainingGb, string driveType, EDriveType type)
+
+    public Partition(string name, string driveType, string pathRootDirectory, double totalGb, double totalFreeGb,string driveFormat)
     {
-        DriveLetter = driveLetter;
-        FileSystemLabel = fileSystemLabel;
-        FileSystemType = fileSystemType;
-        SizeGB = sizeGb;
-        SizeRemainingGB = sizeRemainingGb;
+        Name = name;
         DriveType = driveType;
-        Type = type;
+        PathRootDirectory = pathRootDirectory;
+        TotalGB = double.Parse(totalGb.ToString("F2"));
+        TotalFreeGB = double.Parse(totalFreeGb.ToString("F2"));
+        DriveFormat = driveFormat;
     }
 
-    public string DriveLetter { get; set; }
-    public string FileSystemLabel { get; set; }
-    public string FileSystemType { get; set; }
-
-    public float SizeGB { get; set; } = 0;
-    public float SizeRemainingGB { get; set; }
+    public string Name { get; set; }
     public string DriveType { get; set; }
-    
-    public EDriveType Type { get; set; }
+    public string PathRootDirectory { get; set; }
+    public double TotalGB { get; set; } 
+    public double TotalFreeGB { get; set; }
+    public string DriveFormat { get; set; }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Text.Json;
 using System.Diagnostics;
 using System.Text.Json.Serialization;
@@ -9,35 +10,11 @@ namespace OpenPath.UI.Models;
 
 public class ManagerCommands
 {
-    [JsonConstructor]
     public ManagerCommands()
     {
         
     }
-    public ManagerCommands(string path)
-    {
-        ManagerCommands? manager = null;
-
-        if (OperatingSystem.IsWindows())
-        {
-            var json = System.IO.File.ReadAllText(path); 
-
-            manager =  JsonSerializer.Deserialize<ManagerCommands>(json);
-            Tool = "powershell.exe";
-        }
-        if (OperatingSystem.IsLinux())
-        {
-            var json = System.IO.File.ReadAllText(path); 
-
-            manager =  JsonSerializer.Deserialize<ManagerCommands>(json);
-            Tool = "/bin/bash";
-        }
-        
-        Commands = manager.Commands;
-    }
-
-    public Command Commands { get; set; }
-    public string Tool { get; set; }
+    
 
     public Directory GetFiles(string path)
     {   
@@ -76,133 +53,45 @@ public class ManagerCommands
         return directory;
     }
 
-    public async Task<string> GetPartition()
+    public List<Partition> GetPartition()
     {
-        var process = new Process();
-        
-        process.StartInfo.FileName = Tool;
-        process.StartInfo.Arguments = $"-Command {Commands.GetPartitions}";
-        process.StartInfo.RedirectStandardOutput = true;
-        process.StartInfo.RedirectStandardError = true;
-        process.StartInfo.UseShellExecute = false;
-        process.StartInfo.CreateNoWindow = true;
-        
-        process.Start();
-
-        string output = await process.StandardOutput.ReadToEndAsync();
-        string error = await process.StandardError.ReadToEndAsync();
-
-        if (process.ExitCode != 0)
+        var drives = DriveInfo.GetDrives();
+        var listDrives = new List<Partition>();
+        foreach (var drive in drives)
         {
-            System.IO.File.AppendAllText(
-                @"debug.txt",
-                $"\n         ExitCode: {process.ExitCode}\n        Output: {output}\n        Error: {error}\n        ");
-            // Faça algo com a string 'error' aqui (ex: log ou lançar exception)
-        }  
-        
-        return output;
+            if(drive.IsReady)
+                listDrives.Add(new Partition(
+                    drive.Name,
+                    drive.DriveType.ToString(),
+                    drive.RootDirectory.FullName,
+                    drive.TotalSize / 1024.0 / 1024.0 / 1024.0,
+                    drive.AvailableFreeSpace / 1024.0 / 1024.0 / 1024.0,
+                    drive.DriveFormat));
+        }
+       
+        return listDrives;
     }
     
-    public async Task OpenFile(string path, string? program = null)
+    public void OpenFile(string path, string? program = null)
     {
-        System.IO.File.AppendAllText(
-                 @"debug.txt",
-                 $"\n  ESSE EO PATH A INICIAR{path}");
-        using var process = new Process();
-    
-        process.StartInfo.FileName = Tool;
-        process.StartInfo.Arguments = $"""-Command start '{path}' """;
-        process.StartInfo.RedirectStandardOutput = true;
-        process.StartInfo.RedirectStandardError = true;
-        process.StartInfo.UseShellExecute = false;
-        process.StartInfo.CreateNoWindow = true;
-    
-        process.Start();
-
-        // 2. Dispara a leitura de ambos os fluxos simultaneamente para evitar deadlocks
-        Task<string> outputTask = process.StandardOutput.ReadToEndAsync();
-        Task<string> errorTask = process.StandardError.ReadToEndAsync();
-
-        // 3. Aguarda a leitura completa e o término do processo de forma assíncrona
-        await Task.WhenAll(outputTask, errorTask, process.WaitForExitAsync());
-
-        string output = outputTask.Result;
-        string error = errorTask.Result;
-
-        // Opcional: Tratar o erro se o processo falhar (ExitCode diferente de 0)
-        if (process.ExitCode != 0)
+        var startInfo = new ProcessStartInfo()
         {
-            System.IO.File.AppendAllText(
-                    @"debug.txt",
-                    $"\n         ExitCode: {process.ExitCode}\n        Output: {output}\n        Error: {error}\n        ");
-            // Faça algo com a string 'error' aqui (ex: log ou lançar exception)
-        }    
-        
+            FileName = path,
+            UseShellExecute = true
+        };
+
+        Process.Start(startInfo);
     }
 
     public async Task CreateFolder(string path, string name)
     {
-        using var process = new Process();
-    
-        process.StartInfo.FileName = Tool;
-        process.StartInfo.Arguments = $"""-Command {Commands.CreateFolder} {path}/{name} """;
-        process.StartInfo.RedirectStandardOutput = true;
-        process.StartInfo.RedirectStandardError = true;
-        process.StartInfo.UseShellExecute = false;
-        process.StartInfo.CreateNoWindow = true;
-        
-        process.Start();
-
-        // 2. Dispara a leitura de ambos os fluxos simultaneamente para evitar deadlocks
-        Task<string> outputTask = process.StandardOutput.ReadToEndAsync();
-        Task<string> errorTask = process.StandardError.ReadToEndAsync();
-
-        await Task.WhenAll(outputTask, errorTask, process.WaitForExitAsync());
-
-        string output = outputTask.Result;
-        string error = errorTask.Result;
-
-        
-        // Opcional: Tratar o erro se o processo falhar (ExitCode diferente de 0)
-        if (process.ExitCode != 0)
-        {
-            System.IO.File.AppendAllText(
-                @"debug.txt",
-                $"\n         ExitCode: {process.ExitCode}\n        Output: {output}\n        Error: {error}\n        ");
-            // Faça algo com a string 'error' aqui (ex: log ou lançar exception)
-        }    
+        var fullDirectoryName = Path.Combine(path, name);
+        System.IO.Directory.CreateDirectory(fullDirectoryName);
     }
     
     public async Task CreateFile(string path, string name)
     {
-        using var process = new Process();
-    
-        process.StartInfo.FileName = Tool;
-        process.StartInfo.Arguments = $"""-Command {Commands.CreateFile} {path}/{name} """;
-        process.StartInfo.RedirectStandardOutput = true;
-        process.StartInfo.RedirectStandardError = true;
-        process.StartInfo.UseShellExecute = false;
-        process.StartInfo.CreateNoWindow = true;
-        
-        process.Start();
-
-        // 2. Dispara a leitura de ambos os fluxos simultaneamente para evitar deadlocks
-        Task<string> outputTask = process.StandardOutput.ReadToEndAsync();
-        Task<string> errorTask = process.StandardError.ReadToEndAsync();
-
-        await Task.WhenAll(outputTask, errorTask, process.WaitForExitAsync());
-
-        string output = outputTask.Result;
-        string error = errorTask.Result;
-
-        
-        // Opcional: Tratar o erro se o processo falhar (ExitCode diferente de 0)
-        if (process.ExitCode != 0)
-        {
-            System.IO.File.AppendAllText(
-                @"debug.txt",
-                $"\n         ExitCode: {process.ExitCode}\n        Output: {output}\n        Error: {error}\n        ");
-            // Faça algo com a string 'error' aqui (ex: log ou lançar exception)
-        }    
+        var fullNameFile = Path.Combine(path, name);
+        System.IO.File.Create(fullNameFile);
     }
 } 

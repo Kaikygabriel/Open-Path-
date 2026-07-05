@@ -5,12 +5,12 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using OpenPath.UI.Models;
-using OpenPath.UI.Services;
 
 namespace OpenPath.UI.ViewModels;
 
 public class ExplorerViewModel : INotifyPropertyChanged
 {
+    private ManagerCommands _manager;
     private Directory _currentDirectory = new()
     {
         Name = "Carregando..."
@@ -209,11 +209,11 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         try
         {
-            var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
+            _manager = new ManagerCommands();
 
-            CurrentDirectory = manager.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile));
+            CurrentDirectory = _manager.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile));
 
-            Partitions = ConvertApp.GetPartitionsFromWindows(await manager.GetPartition());
+            Partitions =  _manager.GetPartition();
         }
         catch (Exception e)
         {
@@ -267,9 +267,8 @@ public class ExplorerViewModel : INotifyPropertyChanged
             if (string.IsNullOrWhiteSpace(FileName))
                 return;
 
-            var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-            await manager.CreateFile(CurrentDirectory.Path,FileName);
-            CurrentDirectory = manager.GetFiles(CurrentDirectory.Path);
+            await _manager.CreateFile(CurrentDirectory.Path,FileName);
+            CurrentDirectory = _manager.GetFiles(CurrentDirectory.Path);
             FileName = string.Empty;
         }
         finally
@@ -308,8 +307,7 @@ public class ExplorerViewModel : INotifyPropertyChanged
 
     private async Task CreateFolderAsync(string name)
     {
-        var manager = new ManagerCommands(@"Assets/SystemCommandsWindows.json");
-        await manager.CreateFolder(CurrentDirectory.Path,name);
-        CurrentDirectory = manager.GetFiles(CurrentDirectory.Path);
+        await _manager.CreateFolder(CurrentDirectory.Path,name);
+        CurrentDirectory = _manager.GetFiles(CurrentDirectory.Path);
     }
 }

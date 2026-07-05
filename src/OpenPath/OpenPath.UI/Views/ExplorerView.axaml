@@ -434,13 +434,13 @@
                                                         Spacing="1">
 
                                                         <TextBlock
-                                                            Text="{Binding FileSystemLabel}"
+                                                            Text="{Binding Name}"
                                                             FontSize="13"
                                                             FontWeight="SemiBold"
                                                             Foreground="#1F2937"/>
 
                                                         <TextBlock
-                                                            Text="{Binding DriveLetter}"
+                                                            Text="{Binding DriveFormat}"
                                                             FontSize="11"
                                                             Foreground="#64748B"/>
                                                     </StackPanel>
@@ -452,7 +452,7 @@
                                                         ColumnDefinitions="*,Auto">
 
                                                         <TextBlock
-                                                            Text="{Binding FileSystemType}"
+                                                            Text="{Binding DriveType}"
                                                             FontSize="11"
                                                             Foreground="#64748B"/>
 
@@ -460,10 +460,11 @@
                                                             Grid.Column="1"
                                                             FontSize="11"
                                                             Foreground="#64748B">
-                                                            <Run Text="{Binding SizeRemainingGB}"/>
-                                                            <Run Text=" GB livres"/>
+                                                            <Run Text="{Binding TotalFreeGB}"/>
+                                                            <Run Text=" GB livre de"/>
+                                                            <Run Text="{Binding TotalGB}"/>
+                                                            <Run Text=" GB"/>
                                                         </TextBlock>
-
                                                     </Grid>
 
                                                 </Grid>
@@ -573,7 +574,7 @@
                             </ItemsControl>
                         </StackPanel>
 
-                        <StackPanel Grid.Row="2" Spacing="10" Margin="0,0,0,20">
+                        <StackPanel Grid.Row="2" Spacing="10" Margin="0,0,0,250">
                             <TextBlock
                                 Text="Arquivos"
                                 FontSize="16"
