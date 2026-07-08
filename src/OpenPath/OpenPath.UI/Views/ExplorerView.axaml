@@ -307,6 +307,7 @@
 
             <Border
                 Grid.Column="0"
+                VerticalAlignment="Stretch"
                 Background="#FAFBFD"
                 BorderBrush="#E5EAF1"
                 BorderThickness="0,0,1,0"
@@ -315,7 +316,9 @@
                 <ScrollViewer
                     VerticalScrollBarVisibility="Auto"
                     HorizontalScrollBarVisibility="Disabled"
-                    Padding="14,18,14,18">
+                    Padding="14,18,14,18"
+                    VerticalAlignment="Stretch"
+                    >
 
                     <StackPanel Spacing="16" HorizontalAlignment="Stretch">
 

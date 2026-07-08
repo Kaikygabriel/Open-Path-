@@ -116,14 +116,20 @@ public partial class ExplorerView : UserControl
 
     private void OnFileClick(object? sender, RoutedEventArgs e)
     {
+        
         if (sender is Button { DataContext: ExplorerViewModel vm } )
         {
-            _manager.OpenFile(vm.SelectedPath);
+            if (System.IO.Directory.Exists(vm.SelectedPath))
+                OnFolderSelected(vm.SelectedPath);
+            else
+                _manager.OpenFile(vm.SelectedPath);
         }
         if (sender is Button { DataContext: File file } )
         {
             _manager.OpenFile(file.Path);
         }
+        
+        
     }
 
     public void OnFolderSelected(string folderPath)
