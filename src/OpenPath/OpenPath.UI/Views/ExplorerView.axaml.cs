@@ -1,5 +1,7 @@
 using System;
+using System.Linq;
 using Avalonia.Controls;
+using Avalonia.Controls.Shapes;
 using Avalonia.Input;
 using Avalonia.Input.Platform;
 using Avalonia.Interactivity;
@@ -10,6 +12,9 @@ namespace OpenPath.UI.Views;
 
 public partial class ExplorerView : UserControl
 {
+    private string _pathRename;
+    private bool _isFileRename;
+    
     private ManagerCommands _manager;
     public ExplorerView()
     {
@@ -128,8 +133,6 @@ public partial class ExplorerView : UserControl
         {
             _manager.OpenFile(file.Path);
         }
-        
-        
     }
 
     public void OnFolderSelected(string folderPath)
@@ -318,4 +321,55 @@ public partial class ExplorerView : UserControl
         if (DataContext is ExplorerViewModel vm)
             vm.NoVisibleCreateFile();
     }
+    
+    private void OnOpenRename(object? sender, RoutedEventArgs e)
+    {
+        if (sender is MenuItem { DataContext: File file })
+        {
+            _pathRename =  file.Path;
+            _isFileRename = true;
+        }
+        
+        if (sender is MenuItem { DataContext: Directory directory })
+        {
+            _pathRename =  directory.Path;
+            _isFileRename = false;
+        }
+        
+        if (DataContext is ExplorerViewModel vm)
+            vm.VisibleRename(_pathRename.Split(new[] { '/', '\\' }).ToList().Last());
+
+    }
+
+    public async void CancelRename(object? sender, RoutedEventArgs e)
+    {
+        _pathRename = "";
+        if (DataContext is ExplorerViewModel vm)
+            vm.NoVisibleRename(_pathRename);
+    }
+
+    private async void Rename(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is ExplorerViewModel vm && !string.IsNullOrEmpty(vm.NewNameRename))
+        {
+            var oldPath = _pathRename;
+            
+            var parentFolder = System.IO.Path.GetDirectoryName(oldPath);
+            if (parentFolder == null) return;
+
+            var result = System.IO.Path.Combine(parentFolder, vm.NewNameRename);
+        
+            if (_isFileRename)
+            {
+                System.IO.File.Move(oldPath, result);
+            }
+            else
+            {
+                System.IO.Directory.Move(oldPath, result);
+            }
+        
+            vm.NoVisibleRename(_pathRename);
+        }
+    }
+
 }

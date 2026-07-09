@@ -1,4 +1,4 @@
-<UserControl
+ <UserControl
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:vm="using:OpenPath.UI.ViewModels"
@@ -48,7 +48,7 @@
         <ContextMenu x:Key="FileContextMenu">
             <MenuItem Header="Abrir" Click="OnOpenFileClickMenuItem"/>
             <MenuItem Header="Deletar" Click="OnDeleteClick"/>
-            <MenuItem Header="Renomear" Click="OnRenameClick"/>
+            <MenuItem Header="Renomear" Click="OnOpenRename"/>
             <Separator/>
             <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
             <MenuItem Header="Copiar path" Click="OnCopyPathClick"/>
@@ -57,7 +57,7 @@
         <ContextMenu x:Key="FolderContextMenu">
             <MenuItem Header="Abrir" Click="OnOpenFolderClickMenuItem"/>
             <MenuItem Header="Deletar" Click="OnDeleteClick"/>
-            <MenuItem Header="Renomear" Click="OnRenameClick"/>
+            <MenuItem Header="Renomear" Click="OnOpenRename"/>
             <Separator/>
             <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
             <MenuItem Header="Copiar path" Click="OnCopyPathClick"/>
@@ -901,7 +901,64 @@
                 </StackPanel>
             </Border>
         </Grid>
-        
+        <Grid Grid.Row="0" Grid.RowSpan="2"
+              IsVisible="{Binding HasVisibleRename}"
+              Background="#40000000"
+              ZIndex="999"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch">
+
+            <Border Width="340"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="#F8FAFC"
+                    BorderBrush="#E5EAF1"
+                    BorderThickness="1"
+                    CornerRadius="16"
+                    Padding="20">
+
+                <StackPanel Spacing="16">
+
+                    <TextBlock Text="Renomear"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Foreground="#111827"/>
+
+                    <Border Background="White"
+                            BorderBrush="#D1D5DB"
+                            BorderThickness="1"
+                            CornerRadius="12"
+                            Padding="12,8">
+
+                        <TextBox Text="{Binding NewNameRename, Mode=TwoWay}"
+                                 Background="Transparent"
+                                 BorderThickness="0"
+                                 PlaceholderText="Digite o novo nome "/>
+                    </Border>
+
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Right"
+                                Spacing="10">
+
+                        <Button Content="Cancelar"
+                                Click="CancelRename" 
+                                Background="#111827"
+                                Foreground="White"
+                                BorderThickness="0"
+                                CornerRadius="10"/>
+
+                        <Button Content="Renomear"
+                                Click="Rename" 
+                                Background="#111827"
+                                Foreground="White"
+                                BorderThickness="0"
+                                CornerRadius="10"/>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </Grid>
     </Grid>
 </UserControl>
                 

@@ -46,6 +46,22 @@ public class ExplorerViewModel : INotifyPropertyChanged
         }
     }
     
+       
+    private bool _hasVisibleRename;
+
+    public bool HasVisibleRename
+    {
+        get => _hasVisibleRename;
+        set
+        {
+            if (_hasVisibleRename == value)
+                return;
+
+            _hasVisibleRename = value;
+            OnPropertyChanged();
+        }
+    }
+    
     private bool _hasVisibleCreateFolder;
 
     public bool HasVisibleCreateFolder
@@ -60,7 +76,21 @@ public class ExplorerViewModel : INotifyPropertyChanged
             OnPropertyChanged();
         }
     }
-    
+
+    private string _newNameRename = "";
+
+    public string NewNameRename
+    {
+        get => _newNameRename;
+        set
+        {
+            if (_newNameRename == value)
+                return;
+
+            _newNameRename = value;
+            OnPropertyChanged();
+        }
+    }    
     public string FileName { get; set; }
     public string FolderName { get; set; }
     
@@ -285,6 +315,20 @@ public class ExplorerViewModel : INotifyPropertyChanged
     public void NoVisibleCreateFolder()
     {
         HasVisibleCreateFolder = false;
+        OnPropertyChanged();
+    }
+    
+    public void VisibleRename(string path)
+    {
+        NewNameRename = path;
+        HasVisibleRename = true;
+        OnPropertyChanged();
+    }
+    public void NoVisibleRename(string path)
+    {
+        NewNameRename = path;
+        HasVisibleRename = false;
+        CurrentDirectory = _manager.GetFiles(CurrentDirectory.Path); 
         OnPropertyChanged();
     }
     public async Task CreateFolderCommand()
