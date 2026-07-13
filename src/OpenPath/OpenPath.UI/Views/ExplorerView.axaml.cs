@@ -1,10 +1,13 @@
 using System;
 using System.Linq;
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.Shapes;
 using Avalonia.Input;
 using Avalonia.Input.Platform;
 using Avalonia.Interactivity;
+using Avalonia.Media;
+using Avalonia.VisualTree;
 using OpenPath.UI.Models;
 using OpenPath.UI.ViewModels;
 
@@ -12,6 +15,12 @@ namespace OpenPath.UI.Views;
 
 public partial class ExplorerView : UserControl
 {
+    private bool _isDragging;
+    private string? _dragPath;
+    private bool _dragIsFile;
+
+
+    private Border? _dragTarget;
     private string _pathRename;
     private bool _isFileRename;
     
@@ -21,7 +30,7 @@ public partial class ExplorerView : UserControl
         _manager = new ManagerCommands();
         InitializeComponent();
     }
-
+  
     private void OnHomeClick(object? sender, RoutedEventArgs e)
     {
         try
@@ -300,7 +309,20 @@ public partial class ExplorerView : UserControl
         if (DataContext is ExplorerViewModel vm)
             vm.VisibleCreateFolder();
     }
+    
+    private void OnIconsMode(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is ExplorerViewModel vm)
+            vm.SetIconMode();
+    }
 
+    private void OnDetailsMode(object? sender, RoutedEventArgs e)
+    {
+          if (DataContext is ExplorerViewModel vm)
+            vm.SetDetailsMode();
+    }
+    
+    
     private async void CreateFolderCommand(object? sender, RoutedEventArgs e)
     {
         if (DataContext is ExplorerViewModel vm)
@@ -335,9 +357,24 @@ public partial class ExplorerView : UserControl
             _pathRename =  directory.Path;
             _isFileRename = false;
         }
-        
+
+
         if (DataContext is ExplorerViewModel vm)
+        {
+            if (vm.SelectedDirectory is not null && string.IsNullOrEmpty(_pathRename))
+            {
+                _pathRename = vm.SelectedDirectory.Path;
+                _isFileRename = false;
+            }
+
+            if (vm.SelectedFile is not null && string.IsNullOrEmpty(_pathRename))
+            {
+                _pathRename = vm.SelectedFile.Path;
+                _isFileRename = true;
+            }
+
             vm.VisibleRename(_pathRename.Split(new[] { '/', '\\' }).ToList().Last());
+        }
 
     }
 
@@ -367,7 +404,8 @@ public partial class ExplorerView : UserControl
             {
                 System.IO.Directory.Move(oldPath, result);
             }
-        
+            
+            _pathRename = string.Empty;
             vm.NoVisibleRename(_pathRename);
         }
     }

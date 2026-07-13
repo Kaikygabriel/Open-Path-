@@ -4,6 +4,9 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using Avalonia.Controls;
+using Avalonia.Input;
+using OpenPath.UI.Enuns;
 using OpenPath.UI.Models;
 
 namespace OpenPath.UI.ViewModels;
@@ -17,7 +20,7 @@ public class ExplorerViewModel : INotifyPropertyChanged
     };
 
     private List<Partition> _partitions = [];
-
+    
     private Directory? _selectedDirectory;
     private File? _selectedFile;
 
@@ -27,6 +30,21 @@ public class ExplorerViewModel : INotifyPropertyChanged
         set
         {
             _partitions = value;
+            OnPropertyChanged();
+        }
+    }
+    
+    private bool _hasVisibleViewModeOptions;
+
+    public bool HasVisibleViewModeOptions
+    {
+        get => _hasVisibleViewModeOptions;
+        set
+        {
+            if (_hasVisibleViewModeOptions == value)
+                return;
+
+            _hasVisibleViewModeOptions = value;
             OnPropertyChanged();
         }
     }
@@ -193,7 +211,34 @@ public class ExplorerViewModel : INotifyPropertyChanged
             OnPropertyChanged(nameof(SelectedModifiedText));
         }
     }
+    private EModeView _viewMode = EModeView.Icons;
 
+    public EModeView ViewMode
+    {
+        get => _viewMode;
+        set
+        {
+            if (_viewMode == value)
+                return;
+
+            _viewMode = value;
+            OnPropertyChanged();
+            OnPropertyChanged(nameof(IsIconMode));
+            OnPropertyChanged(nameof(IsDetailsMode));
+        }
+    }
+    public bool IsIconMode => ViewMode == EModeView.Icons;
+
+    public bool IsDetailsMode => ViewMode == EModeView.Details;
+    public void SetIconMode()
+    {
+        ViewMode = EModeView.Icons;
+    }
+
+    public void SetDetailsMode()
+    {
+        ViewMode = EModeView.Details;
+    }
     public bool HasSelection => SelectedDirectory is not null || SelectedFile is not null;
 
     public string SelectedName =>
@@ -307,6 +352,11 @@ public class ExplorerViewModel : INotifyPropertyChanged
             OnPropertyChanged();
         }
     }
+    public void VisibleViewModeOptions()
+    {
+        HasVisibleViewModeOptions = true;
+        OnPropertyChanged();
+    }
     public void VisibleCreateFolder()
     {
         HasVisibleCreateFolder = true;
@@ -354,4 +404,5 @@ public class ExplorerViewModel : INotifyPropertyChanged
         await _manager.CreateFolder(CurrentDirectory.Path,name);
         CurrentDirectory = _manager.GetFiles(CurrentDirectory.Path);
     }
+    
 }

@@ -75,6 +75,7 @@
 
     <UserControl.Styles>
 
+        
         <Style Selector="ContextMenu">
             <Setter Property="Theme" Value="{StaticResource GlassContextMenuTheme}" />
         </Style>
@@ -192,19 +193,47 @@
                                                 Foreground="{DynamicResource SettingsTextPrimary}" />
 
                                             <StackPanel Spacing="8">
-                                                <Button Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
+                                                <Button 
+                                                    Background="Transparent"
+                                                        BorderThickness="0"
+                                                        HorizontalContentAlignment="Left"
+                                                        Padding="10,9">
                                                     <TextBlock Text="• Aparência dos arquivos" Foreground="#1F2937"/>
                                                 </Button>
 
-                                                <Button Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
-                                                    <TextBlock Text="• Navegação" Foreground="#1F2937"/>
-                                                </Button>
+                                                <Button
+                                                    Background="Transparent"
+                                                    BorderThickness="0"
+                                                    Padding="10,9"
+                                                    HorizontalContentAlignment="Left">
 
-                                                <Button Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
+                                                    <TextBlock Text="• Navegação"/>
+
+                                                    <Button.Flyout>
+
+                                                        <MenuFlyout>
+
+                                                            <MenuItem
+                                                                Header="Ícones"
+                                                                Click="OnIconsMode" 
+                                                                />
+
+                                                            <MenuItem
+                                                                Header="Detalhes"
+                                                                Click="OnDetailsMode"
+                                                                />
+
+                                                        </MenuFlyout>
+
+                                                    </Button.Flyout>
+
+                                                </Button>
+                                                
+                                                <Button Padding="10,9"  Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
                                                     <TextBlock Text="• Atalhos" Foreground="#1F2937"/>
                                                 </Button>
 
-                                                <Button Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
+                                                <Button Padding="10,9" Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
                                                     <TextBlock Text="• Sobre" Foreground="#1F2937"/>
                                                 </Button>
                                             </StackPanel>
@@ -508,7 +537,8 @@
                     VerticalAlignment="Stretch"
                     Padding="20,20,20,80">
 
-                    <Grid RowDefinitions="Auto,Auto,Auto" MinWidth="0" HorizontalAlignment="Stretch">
+                    <Grid>
+                    <Grid RowDefinitions="Auto,Auto,Auto" MinWidth="0" HorizontalAlignment="Stretch" IsVisible="{Binding IsIconMode}">
 
                         <StackPanel Grid.Row="0" Spacing="4" Margin="0,0,0,22">
                             <TextBlock
@@ -530,7 +560,9 @@
                                 Foreground="#1F2937" />
 
                             <ItemsControl ItemsSource="{Binding CurrentDirectory.Directories}"
-                                          HorizontalAlignment="Stretch">
+                                          HorizontalAlignment="Stretch"
+                                          IsVisible="{Binding IsIconMode}"
+                                          >
                                 <ItemsControl.ItemsPanel>
                                     <ItemsPanelTemplate>
                                         <WrapPanel Orientation="Horizontal" />
@@ -546,6 +578,7 @@
                                             Margin="0,0,12,12"
                                             Click="OnSelectFolder"
                                             DoubleTapped="OnFolderClick"
+                                       
                                             ContextMenu="{StaticResource FolderContextMenu}"
                                             ContextRequested="OnFolderContextRequested"
                                             >
@@ -585,6 +618,7 @@
                                 Foreground="#1F2937" />
 
                             <ItemsControl ItemsSource="{Binding CurrentDirectory.Files}"
+                                          IsVisible="{Binding IsIconMode}"
                                           HorizontalAlignment="Stretch">
                                 <ItemsControl.ItemsPanel>
                                     <ItemsPanelTemplate>
@@ -592,7 +626,7 @@
                                     </ItemsPanelTemplate>
                                 </ItemsControl.ItemsPanel>
 
-                                <ItemsControl.ItemTemplate>
+                                <ItemsControl.ItemTemplate >
                                     <DataTemplate x:DataType="model:File">
                                         <Button
                                             Background="Transparent"
@@ -632,9 +666,120 @@
                         </StackPanel>
 
                     </Grid>
+                    
+                    
+                    <!-- INICIO -->
+    <Grid Grid.Row="1" RowDefinitions="Auto,*" IsVisible="{Binding IsDetailsMode}">
+    
+        <Grid.Styles>
+            <Style Selector="ItemsControl > ContentPresenter:nth-child(even) > Button > Border">
+                <Setter Property="Background" Value="#E2EEF7FF" />
+            </Style>
+            <Style Selector="ItemsControl > ContentPresenter:nth-child(odd) > Button > Border">
+                <Setter Property="Background" Value="#FFFFFF" />
+            </Style>
+        </Grid.Styles>
+    
+        <Border
+            Grid.Row="0"
+            BorderBrush="#E5EAF1"
+            BorderThickness="0,0,0,1"
+            Padding="16,8,16,8"
+            Margin="0,0,16,0"> <Grid ColumnDefinitions="*, 100, 120, 160">
+                <TextBlock Text="Nome" FontSize="13" FontWeight="SemiBold" HorizontalAlignment="Left" Foreground="#6B7280" />
+                <TextBlock Grid.Column="1" Text="Tamanho" FontSize="13" HorizontalAlignment="Left" FontWeight="SemiBold" Foreground="#6B7280" />
+                <TextBlock Grid.Column="2" Text="Tipo" FontSize="13" HorizontalAlignment="Left" FontWeight="SemiBold" Foreground="#6B7280" />
+                <TextBlock Grid.Column="3" Text="Data de Modificação" FontSize="13" HorizontalAlignment="Left" FontWeight="SemiBold" Foreground="#6B7280" />
+            </Grid>
+    
+        </Border>
+    
+        <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Disabled">
+            <StackPanel HorizontalAlignment="Stretch">
+    
+                <ItemsControl ItemsSource="{Binding CurrentDirectory.Directories}" HorizontalAlignment="Stretch">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="model:Directory">
+                            
+                            <Button
+                                Background="Transparent"
+                                BorderThickness="0"
+                                Padding="0"
+                                HorizontalAlignment="Stretch"
+                                HorizontalContentAlignment="Stretch"
+                                Click="OnSelectFolder"
+                                DoubleTapped="OnFolderClick"
+                                ContextMenu="{StaticResource FolderContextMenu}"
+                                ContextRequested="OnFolderContextRequested">
+    
+                                <Border
+                                    Padding="16,10,16,10"
+                                    BorderBrush="#F3F4F6"
+                                    BorderThickness="0,0,0,1"
+                                    HorizontalAlignment="Stretch">
+    
+                                    <Grid ColumnDefinitions="*, 100, 120, 160" HorizontalAlignment="Stretch">
+                                        <StackPanel Orientation="Horizontal" Spacing="12">
+                                            <Image Width="20" Height="20" Source="/Assets/directory.png" />
+                                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Foreground="#1F2937" FontWeight="SemiBold" />
+                                        </StackPanel>
+                                        <TextBlock Grid.Column="1" Text="--" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#9CA3AF" />
+                                        <TextBlock Grid.Column="2" Text="Pasta" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#6B7280" />
+                                        <TextBlock Grid.Column="3" Text="{Binding Date}" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#6B7280" />
+                                    </Grid>
+                                </Border>
+                                
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+    
+                <ItemsControl ItemsSource="{Binding CurrentDirectory.Files}" HorizontalAlignment="Stretch">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="model:File">
+                            
+                            <Button
+                                Background="Transparent"
+                                BorderThickness="0"
+                                Padding="0"
+                                HorizontalAlignment="Stretch"
+                                HorizontalContentAlignment="Stretch"
+                                Click="OnSelectFile"
+                                DoubleTapped="OnFileClick"
+                                ContextMenu="{StaticResource FileContextMenu}"
+                                ContextRequested="OnFileContextRequested">
+    
+                                <Border
+                                    Padding="16,10,16,10"
+                                    BorderBrush="#F3F4F6"
+                                    BorderThickness="0,0,0,1"
+                                    HorizontalAlignment="Stretch">
+    
+                                    <Grid ColumnDefinitions="*, 100, 120, 160" HorizontalAlignment="Stretch">
+                                        <StackPanel Orientation="Horizontal" Spacing="12">
+                                            <Image Width="20" Height="20" Source="/Assets/file.png" />
+                                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Foreground="#374151" />
+                                        </StackPanel>
+                                        <TextBlock Grid.Column="1" Text="{Binding Lenght}" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#6B7280" />
+                                        <TextBlock Grid.Column="2" Text="{Binding Extension}" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#6B7280" />
+                                        <TextBlock Grid.Column="3" Text="{Binding LastWriteTime}" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#6B7280" />
+                                    </Grid>
+                                </Border>
+                                
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+    
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+                    <!-- fim -->
+                    </Grid>
                 </ScrollViewer>
             </Border>
-
+            
+           
             <GridSplitter
                 Grid.Column="3"
                 Width="6"
@@ -775,7 +920,9 @@
                                     BorderThickness="0"
                                     Padding="10,9"
                                     HorizontalAlignment="Stretch"
-                                    HorizontalContentAlignment="Left">
+                                    HorizontalContentAlignment="Left"
+                                    Click="OnOpenRename"
+                                    >
                                     <TextBlock Text="Renomear" Foreground="#1F2937"/>
                                 </Button>
                             </StackPanel>
