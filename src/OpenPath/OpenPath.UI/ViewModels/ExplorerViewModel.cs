@@ -4,8 +4,6 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using Avalonia.Controls;
-using Avalonia.Input;
 using OpenPath.UI.Enuns;
 using OpenPath.UI.Models;
 
@@ -218,13 +216,27 @@ public class ExplorerViewModel : INotifyPropertyChanged
         get => _viewMode;
         set
         {
-            if (_viewMode == value)
-                return;
+            try
+            {
+                if (_viewMode == value)
+                    return;
 
-            _viewMode = value;
-            OnPropertyChanged();
-            OnPropertyChanged(nameof(IsIconMode));
-            OnPropertyChanged(nameof(IsDetailsMode));
+                _viewMode = value;
+
+                System.IO.File.WriteAllText("Assets/ViewMode.txt", $"{(int)_viewMode}");
+
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(IsIconMode));
+                OnPropertyChanged(nameof(IsDetailsMode));
+            }
+            catch (Exception e)
+            {
+                 System.IO.File.AppendAllText(
+                    @"debug.txt",
+                    $" \t \n  exceção {e.Message} {e.StackTrace} \t \t ");
+
+            }
+         
         }
     }
     public bool IsIconMode => ViewMode == EModeView.Icons;
@@ -265,7 +277,7 @@ public class ExplorerViewModel : INotifyPropertyChanged
         SelectedDirectory is not null
             ? $"{SelectedDirectory.Directories.Count} subpastas • {SelectedDirectory.Files.Count} arquivos"
             : SelectedFile is not null
-                ? $"Tamanho: {FormatBytes(SelectedFile.Lenght)}"
+                ? $"Tamanho: {SelectedFile.Lenght}"
                 : string.Empty;
 
     public string SelectedModifiedText =>
@@ -284,11 +296,19 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         try
         {
+            var modeDefault =  EModeView.Icons;
+            var viewModeResult = int.TryParse(await System.IO.File.ReadAllTextAsync("Assets/ViewMode.txt"),out int viewMode);
+            if (viewModeResult)
+            {
+                modeDefault = (EModeView)viewMode;
+            }
             _manager = new ManagerCommands();
 
             CurrentDirectory = _manager.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile));
-
+                
             Partitions =  _manager.GetPartition();
+            ViewMode = modeDefault;
+            
         }
         catch (Exception e)
         {

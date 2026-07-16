@@ -47,7 +47,7 @@ public class ManagerCommands
                 Name = item.Name,
                 Path = item.FullName,
                 LastWriteTime = item.LastWriteTime,
-                Lenght = item.Length
+                Lenght = File.FormatBytes(item.Length)
             });
         }
         return directory;

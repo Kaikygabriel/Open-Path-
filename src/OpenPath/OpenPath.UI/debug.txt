@@ -1,20 +1,15 @@
-
-  ESSE EO PATH A INICIARC:\Users\kaiky\.gitconfig
-  ESSE EO PATH A INICIARC:\Users\kaiky\.gitignore
-  ESSE EO PATH A INICIARC:\Users\kaiky\.gitignore
-  ESSE EO PATH A INICIARC:\Users\kaiky\.gitconfig
-  ESSE EO PATH A INICIARC:\Users\kaiky\.gitignore
-  ESSE EO PATH A INICIARC:\Users\kaiky\.dotnet
-  ESSE EO PATH A INICIARC:\Users\kaiky\.dotnet
-  ESSE EO PATH A INICIARC:\Users\kaiky\Downloads\551-813-traduzido.pdf
-         ExitCode: 1
-        Output: 
-        Error: out-file : O processo nÆo pode acessar o arquivo 'C:\Users\kaiky\OlaMundo.txt' porque ele est  sendo usado por outro processo.
-No linha:1 caractere:1
-+ echo  > C:\Users\kaiky/OlaMundo.txt
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : OpenError: (:) [Out-File], IOException
-    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
- 
-
-        
+ 	 
+  exceção Could not find a part of the path 'C:\Assets\ViewMode.txt'.    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.AsyncStreamReader(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllTextAsync(String path, Encoding encoding, CancellationToken cancellationToken)
+   at OpenPath.UI.ViewModels.ExplorerViewModel.LoadAsync() in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 300 	 	  	 
+  exceção Could not find a part of the path 'C:\Assets\ViewMode.txt'.    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, ReadOnlySpan`1 contents, Encoding encoding)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at OpenPath.UI.ViewModels.ExplorerViewModel.set_ViewMode(EModeView value) in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 226 	 	 

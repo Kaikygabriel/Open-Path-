@@ -707,10 +707,11 @@
                                 Padding="0"
                                 HorizontalAlignment="Stretch"
                                 HorizontalContentAlignment="Stretch"
-                                Click="OnSelectFolder"
                                 DoubleTapped="OnFolderClick"
                                 ContextMenu="{StaticResource FolderContextMenu}"
-                                ContextRequested="OnFolderContextRequested">
+                                ContextRequested="OnFolderContextRequested"
+                                ToolTip.Tip="{Binding Path}"
+                                >
     
                                 <Border
                                     Padding="16,10,16,10"
@@ -744,10 +745,10 @@
                                 Padding="0"
                                 HorizontalAlignment="Stretch"
                                 HorizontalContentAlignment="Stretch"
-                                Click="OnSelectFile"
                                 DoubleTapped="OnFileClick"
                                 ContextMenu="{StaticResource FileContextMenu}"
-                                ContextRequested="OnFileContextRequested">
+                                ContextRequested="OnFileContextRequested"
+                                ToolTip.Tip="{Binding Path}">
     
                                 <Border
                                     Padding="16,10,16,10"
@@ -758,7 +759,7 @@
                                     <Grid ColumnDefinitions="*, 100, 120, 160" HorizontalAlignment="Stretch">
                                         <StackPanel Orientation="Horizontal" Spacing="12">
                                             <Image Width="20" Height="20" Source="/Assets/file.png" />
-                                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Foreground="#374151" />
+                                            <TextBlock  MaxWidth="380"  Text="{Binding Name}" VerticalAlignment="Center" Foreground="#374151" />
                                         </StackPanel>
                                         <TextBlock Grid.Column="1" Text="{Binding Lenght}" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#6B7280" />
                                         <TextBlock Grid.Column="2" Text="{Binding Extension}" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#6B7280" />
