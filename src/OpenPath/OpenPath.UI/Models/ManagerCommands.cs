@@ -53,25 +53,33 @@ public class ManagerCommands
         return directory;
     }
 
-    public List<Partition> GetPartition()
-    {
-        var drives = DriveInfo.GetDrives();
-        var listDrives = new List<Partition>();
-        foreach (var drive in drives)
+        public List<Partition> GetPartition()
         {
-            if(drive.IsReady)
-                listDrives.Add(new Partition(
-                    drive.Name,
-                    drive.DriveType.ToString(),
-                    drive.RootDirectory.FullName,
-                    drive.TotalSize / 1024.0 / 1024.0 / 1024.0,
-                    drive.AvailableFreeSpace / 1024.0 / 1024.0 / 1024.0,
-                    drive.DriveFormat));
+            var drives = DriveInfo.GetDrives();
+            var listDrives = new List<Partition>();
+            foreach (var drive in drives)
+            {
+                try
+                {
+
+                    if(drive.IsReady)
+                        listDrives.Add(new Partition(
+                            drive.Name,
+                            drive.DriveType.ToString(),
+                            drive.RootDirectory.FullName,
+                            drive.TotalSize / 1024.0 / 1024.0 / 1024.0,
+                            drive.AvailableFreeSpace / 1024.0 / 1024.0 / 1024.0,
+                            drive.DriveFormat));
+                }
+                catch (Exception e)
+                {
+                    continue;
+                }
+            }
+           
+            return listDrives;
         }
-       
-        return listDrives;
-    }
-    
+        
     public void OpenFile(string path, string? program = null)
     {
         var startInfo = new ProcessStartInfo()
