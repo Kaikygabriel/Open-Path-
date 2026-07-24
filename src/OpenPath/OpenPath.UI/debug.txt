@@ -1,5 +1,1 @@
- 	 
-  exceção Access to the path is denied.    at System.IO.DriveInfo.ThrowForError(Error error)
-   at System.IO.DriveInfo.get_TotalSize()
-   at OpenPath.UI.Models.ManagerCommands.GetPartition() in /home/kaiky/Documentos/Portifolio/Open-Path-/src/OpenPath/OpenPath.UI/Models/ManagerCommands.cs:line 63
-   at OpenPath.UI.ViewModels.ExplorerViewModel.LoadAsync() in /home/kaiky/Documentos/Portifolio/Open-Path-/src/OpenPath/OpenPath.UI/ViewModels/ExplorerViewModel.cs:line 309 	 	 
+PASSOU PELO ORDERBYPASSOU PELO ORDERBYPASSOU PELO ORDERBY

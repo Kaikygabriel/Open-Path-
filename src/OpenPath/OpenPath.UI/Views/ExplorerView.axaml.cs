@@ -8,6 +8,7 @@ using Avalonia.Input.Platform;
 using Avalonia.Interactivity;
 using Avalonia.Media;
 using Avalonia.VisualTree;
+using OpenPath.UI.Enuns;
 using OpenPath.UI.Models;
 using OpenPath.UI.ViewModels;
 
@@ -150,6 +151,15 @@ public partial class ExplorerView : UserControl
             vm.CurrentDirectory =  _manager.GetFiles(folderPath);
     }
 
+    public void OnFolderSelectedOrderByDate(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is ExplorerViewModel vm)
+        {
+            _manager.OrderMode = EOrderMode.Data;
+            vm.CurrentDirectory =  _manager.GetFiles(vm.CurrentDirectory.Path);
+        }
+    }
+    
     public void OnFileSelected(string filePath)
     {
         try

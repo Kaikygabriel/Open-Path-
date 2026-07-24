@@ -5,6 +5,8 @@ using System.Diagnostics;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.IO;
+using System.Linq;
+using OpenPath.UI.Enuns;
 
 namespace OpenPath.UI.Models;
 
@@ -14,7 +16,8 @@ public class ManagerCommands
     {
         
     }
-    
+
+    public EOrderMode? OrderMode { get; set; }
 
     public Directory GetFiles(string path)
     {   
@@ -49,6 +52,15 @@ public class ManagerCommands
                 LastWriteTime = item.LastWriteTime,
                 Lenght = File.FormatBytes(item.Length)
             });
+        }
+
+        if (OrderMode is not null)
+        {
+            if (OrderMode is EOrderMode.Data)
+            {
+                directory.Directories = directory.Directories.OrderByDescending(x => x.Date).ToList();
+                directory.Files = directory.Files.OrderByDescending(x => x.LastWriteTime).ToList();
+            }
         }
         return directory;
     }

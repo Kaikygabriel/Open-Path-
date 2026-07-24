@@ -1,4 +1,4 @@
- <UserControl
+  <UserControl
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:vm="using:OpenPath.UI.ViewModels"
@@ -49,6 +49,7 @@
             <MenuItem Header="Abrir" Click="OnOpenFileClickMenuItem"/>
             <MenuItem Header="Deletar" Click="OnDeleteClick"/>
             <MenuItem Header="Renomear" Click="OnOpenRename"/>
+            <MenuItem Header="Mover" Click="OnOpenRename"/>
             <Separator/>
             <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
             <MenuItem Header="Copiar path" Click="OnCopyPathClick"/>
@@ -58,6 +59,7 @@
             <MenuItem Header="Abrir" Click="OnOpenFolderClickMenuItem"/>
             <MenuItem Header="Deletar" Click="OnDeleteClick"/>
             <MenuItem Header="Renomear" Click="OnOpenRename"/>
+            <MenuItem Header="Mover" Click="OnOpenRename"/>
             <Separator/>
             <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
             <MenuItem Header="Copiar path" Click="OnCopyPathClick"/>
@@ -229,12 +231,34 @@
 
                                                 </Button>
                                                 
-                                                <Button Padding="10,9"  Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
-                                                    <TextBlock Text="• Atalhos" Foreground="#1F2937"/>
-                                                </Button>
+                                                <Button
+                                                    Background="Transparent"
+                                                    BorderThickness="0"
+                                                    Padding="10,9"
+                                                    HorizontalContentAlignment="Left">
 
-                                                <Button Padding="10,9" Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
-                                                    <TextBlock Text="• Sobre" Foreground="#1F2937"/>
+                                                    <TextBlock Text="• Ordernar" />
+
+                                                    <Button.Flyout>
+
+                                                        <MenuFlyout>
+
+                                                            <MenuItem
+                                                                Header="Tamanho"
+                                                                Click="OnIconsMode" />
+
+                                                            <MenuItem
+                                                                Header="Data"
+                                                                Click="OnFolderSelectedOrderByDate" />
+
+                                                            <MenuItem
+                                                                Header="Nome"
+                                                                Click="OnDetailsMode" />
+
+                                                        </MenuFlyout>
+
+                                                    </Button.Flyout>
+
                                                 </Button>
                                             </StackPanel>
                                         </StackPanel>
@@ -695,7 +719,7 @@
         </Border>
     
         <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Disabled">
-            <StackPanel HorizontalAlignment="Stretch">
+            <StackPanel HorizontalAlignment="Stretch" Margin="0,0,0,250">
     
                 <ItemsControl ItemsSource="{Binding CurrentDirectory.Directories}" HorizontalAlignment="Stretch">
                     <ItemsControl.ItemTemplate>
