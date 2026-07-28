@@ -1,13 +1,10 @@
 using System;
 using System.Linq;
-using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Controls.Shapes;
 using Avalonia.Input;
 using Avalonia.Input.Platform;
 using Avalonia.Interactivity;
-using Avalonia.Media;
-using Avalonia.VisualTree;
+using Microsoft.VisualBasic;
 using OpenPath.UI.Enuns;
 using OpenPath.UI.Models;
 using OpenPath.UI.ViewModels;
@@ -16,6 +13,9 @@ namespace OpenPath.UI.Views;
 
 public partial class ExplorerView : UserControl
 {
+    private string _pathMove;
+    private bool _isFileMove;
+    
     private bool _isDragging;
     private string? _dragPath;
     private bool _dragIsFile;
@@ -155,11 +155,28 @@ public partial class ExplorerView : UserControl
     {
         if (DataContext is ExplorerViewModel vm)
         {
-            _manager.OrderMode = EOrderMode.Data;
+            vm.ModeConfiguration.ModeOrder = EOrderMode.Data; 
             vm.CurrentDirectory =  _manager.GetFiles(vm.CurrentDirectory.Path);
         }
     }
     
+    public void OnFolderSelectedOrderByLenght(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is ExplorerViewModel vm)
+        {
+            vm.ModeConfiguration.ModeOrder = EOrderMode.Lenght; 
+            vm.CurrentDirectory =  _manager.GetFiles(vm.CurrentDirectory.Path);
+        }
+    }
+        public void OnFolderSelectedOrderByTitle(object? sender, RoutedEventArgs e)
+        {
+            if (DataContext is ExplorerViewModel vm)
+            {
+                vm.ModeConfiguration.ModeOrder = EOrderMode.Name; 
+                vm.CurrentDirectory =  _manager.GetFiles(vm.CurrentDirectory.Path);
+            }
+        }
+        
     public void OnFileSelected(string filePath)
     {
         try
@@ -388,14 +405,15 @@ public partial class ExplorerView : UserControl
 
     }
 
-    public async void CancelRename(object? sender, RoutedEventArgs e)
+    public  void CancelMove(object? sender, RoutedEventArgs e)
     {
-        _pathRename = "";
+        _pathMove = "";
         if (DataContext is ExplorerViewModel vm)
-            vm.NoVisibleRename(_pathRename);
+            vm.NoVisibleMove();
     }
-
-    private async void Rename(object? sender, RoutedEventArgs e)
+    
+    private void Rename(object? sender, RoutedEventArgs e)
+    
     {
         if (DataContext is ExplorerViewModel vm && !string.IsNullOrEmpty(vm.NewNameRename))
         {
@@ -419,5 +437,63 @@ public partial class ExplorerView : UserControl
             vm.NoVisibleRename(_pathRename);
         }
     }
+    public void CancelRename(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is ExplorerViewModel vm)
+            vm.NoVisibleRename(_pathRename);
+    }
+    
+    private void OnOpenMove(object? sender, RoutedEventArgs e)
+    {
+        if (sender is MenuItem { DataContext: File file })
+        {
+            _pathMove =  file.Path;
+            _isFileMove = true;
+        }
+        
+        if (sender is MenuItem { DataContext: Directory directory })
+        {
+            _pathMove =  directory.Path;
+            _isFileMove = false;
+        }
 
+
+        if (DataContext is ExplorerViewModel vm)
+        {
+            if (vm.SelectedDirectory is not null && string.IsNullOrEmpty(_pathMove))
+            {
+                _pathMove = vm.SelectedDirectory.Path;
+                _isFileMove = false;
+            }
+
+            if (vm.SelectedFile is not null && string.IsNullOrEmpty(_pathMove))
+            {
+                _pathMove = vm.SelectedFile.Path;
+                _isFileMove = true;
+            }
+            System.IO.File.AppendAllText(
+                @"debug.txt",
+                $" \t \n  NOME DO MOVE {_pathMove} \t \t ");
+            vm.VisibleMove(_pathMove);
+        }
+
+    }
+    
+    private async void MoveFile(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is ExplorerViewModel vm && !string.IsNullOrEmpty(vm.CurrentPathMove))
+        {
+            if (_isFileRename)
+            {
+                System.IO.File.Move(_pathMove, vm.CurrentPathMove);
+            }
+            else
+            {
+                System.IO.Directory.Move(_pathMove, vm.CurrentPathMove);
+            }
+            
+            _pathMove = string.Empty;
+            vm.NoVisibleMove();
+        }
+    }       
 }

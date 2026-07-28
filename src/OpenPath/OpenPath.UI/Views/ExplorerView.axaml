@@ -1,4 +1,4 @@
-  <UserControl
+   <UserControl
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:vm="using:OpenPath.UI.ViewModels"
@@ -49,7 +49,7 @@
             <MenuItem Header="Abrir" Click="OnOpenFileClickMenuItem"/>
             <MenuItem Header="Deletar" Click="OnDeleteClick"/>
             <MenuItem Header="Renomear" Click="OnOpenRename"/>
-            <MenuItem Header="Mover" Click="OnOpenRename"/>
+            <MenuItem Header="Mover" Click="OnOpenMove"/>
             <Separator/>
             <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
             <MenuItem Header="Copiar path" Click="OnCopyPathClick"/>
@@ -59,7 +59,7 @@
             <MenuItem Header="Abrir" Click="OnOpenFolderClickMenuItem"/>
             <MenuItem Header="Deletar" Click="OnDeleteClick"/>
             <MenuItem Header="Renomear" Click="OnOpenRename"/>
-            <MenuItem Header="Mover" Click="OnOpenRename"/>
+            <MenuItem Header="Mover" Click="OnOpenMove"/>
             <Separator/>
             <MenuItem Header="Atualizar" Click="OnRefreshClick"/>
             <MenuItem Header="Copiar path" Click="OnCopyPathClick"/>
@@ -245,7 +245,7 @@
 
                                                             <MenuItem
                                                                 Header="Tamanho"
-                                                                Click="OnIconsMode" />
+                                                                Click="OnFolderSelectedOrderByLenght" />
 
                                                             <MenuItem
                                                                 Header="Data"
@@ -253,7 +253,7 @@
 
                                                             <MenuItem
                                                                 Header="Nome"
-                                                                Click="OnDetailsMode" />
+                                                                Click="OnFolderSelectedOrderByTitle" />
 
                                                         </MenuFlyout>
 
@@ -672,7 +672,7 @@
                                                 ToolTip.Tip="{Binding Path}">
                                                 <StackPanel Spacing="6">
                                                     <Image
-                                                        Source="/Assets/file.png"
+                                                        Source="{Binding Icon}"
                                                         Width="35"
                                                         Height="35"/>
                                                     <TextBlock
@@ -782,7 +782,7 @@
     
                                     <Grid ColumnDefinitions="*, 100, 120, 160" HorizontalAlignment="Stretch">
                                         <StackPanel Orientation="Horizontal" Spacing="12">
-                                            <Image Width="20" Height="20" Source="/Assets/file.png" />
+                                            <Image Width="22" Height="22" Source="{Binding Icon}" />
                                             <TextBlock  MaxWidth="380"  Text="{Binding Name}" VerticalAlignment="Center" Foreground="#374151" />
                                         </StackPanel>
                                         <TextBlock Grid.Column="1" Text="{Binding Lenght}" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#6B7280" />
@@ -870,15 +870,15 @@
                                     
                                     <Border
                                         Width="72"
-                                        Height="72"
+                                        Height="70"
                                         Background="#EEF2F7"
                                         CornerRadius="18"
                                         BorderBrush="#E5EAF1"
                                         BorderThickness="1">
                                         <Image
                                             Source="{Binding SelectedIcon}"
-                                            Width="36"
-                                            Height="36"
+                                            Width="72"
+                                            Height="70"
                                             HorizontalAlignment="Center"
                                             VerticalAlignment="Center"/>
                                     </Border>
@@ -952,7 +952,6 @@
                                 </Button>
                             </StackPanel>
                         </Border>
-
                     </StackPanel>
                 </ScrollViewer>
             </Border>
@@ -1131,6 +1130,66 @@
                 </StackPanel>
             </Border>
         </Grid>
+        
+        <Grid Grid.Row="0" Grid.RowSpan="2"
+              IsVisible="{Binding HasVisibleMove}"
+              Background="#40000000"
+              ZIndex="999"
+              HorizontalAlignment="Stretch"
+              VerticalAlignment="Stretch">
+
+            <Border Width="340"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="#F8FAFC"
+                    BorderBrush="#E5EAF1"
+                    BorderThickness="1"
+                    CornerRadius="16"
+                    Padding="20">
+
+                <StackPanel Spacing="16">
+
+                    <TextBlock Text="Mover"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Foreground="#111827"/>
+
+                    <Border Background="White"
+                            BorderBrush="#D1D5DB"
+                            BorderThickness="1"
+                            CornerRadius="12"
+                            Padding="12,8">
+
+                        <TextBox Text="{Binding CurrentPathMove, Mode=TwoWay}"
+                                 Background="Transparent"
+                                 BorderThickness="0"
+                                 PlaceholderText="Digite o novo caminho "/>
+                    </Border>
+
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Right"
+                                Spacing="10">
+
+                        <Button Content="Cancelar"
+                                Click="CancelMove" 
+                                Background="#111827"
+                                Foreground="White"
+                                BorderThickness="0"
+                                CornerRadius="10"/>
+
+                        <Button Content="Mover"
+                                Click="MoveFile" 
+                                Background="#111827"
+                                Foreground="White"
+                                BorderThickness="0"
+                                CornerRadius="10"/>
+
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+        
     </Grid>
 </UserControl>
                 

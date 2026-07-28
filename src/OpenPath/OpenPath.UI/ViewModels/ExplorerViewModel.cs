@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Text.Json;
 using System.Threading.Tasks;
+using Avalonia.Media.Imaging;
 using OpenPath.UI.Enuns;
 using OpenPath.UI.Models;
 
@@ -62,7 +64,21 @@ public class ExplorerViewModel : INotifyPropertyChanged
         }
     }
     
-       
+    private bool _hasVisibleMove;
+
+    public bool HasVisibleMove
+    {
+        get => _hasVisibleMove;
+        set
+        {
+            if (_hasVisibleMove == value)
+                return;
+
+            _hasVisibleMove = value;
+            OnPropertyChanged();
+        }
+    }
+    
     private bool _hasVisibleRename;
 
     public bool HasVisibleRename
@@ -89,6 +105,21 @@ public class ExplorerViewModel : INotifyPropertyChanged
                 return;
 
             _hasVisibleCreateFolder = value;
+            OnPropertyChanged();
+        }
+    }
+
+    private string _currentPathMove = "";
+
+    public string CurrentPathMove
+    {
+        get => _currentPathMove;
+        set
+        {
+            if (_currentPathMove == value)
+                return;
+
+            _currentPathMove = value;
             OnPropertyChanged();
         }
     }
@@ -129,6 +160,22 @@ public class ExplorerViewModel : INotifyPropertyChanged
 
             _currentDirectory = value;
 
+            if (ModeConfiguration.ModeOrder is EOrderMode.Data)
+            {
+                _currentDirectory.Directories = _currentDirectory.Directories.OrderByDescending(x => x.Date).ToList();
+                _currentDirectory.Files = _currentDirectory.Files.OrderByDescending(x => x.LastWriteTime).ToList();
+            }
+            if (ModeConfiguration.ModeOrder is EOrderMode.Lenght)
+            {
+                _currentDirectory.Files = _currentDirectory.Files.OrderBy(x => x.Lenght).ToList();
+            }
+            if (ModeConfiguration.ModeOrder is EOrderMode.Name)
+            {
+                _currentDirectory.Directories = _currentDirectory.Directories.OrderBy(x => x.Name).ToList();
+                _currentDirectory.Files = _currentDirectory.Files.OrderBy
+                    (x => x.Name).ToList();
+            }
+            
             if (OperatingSystem.IsWindows())
             {
                 var path = _currentDirectory.Path.Split('\\').ToList();
@@ -209,21 +256,21 @@ public class ExplorerViewModel : INotifyPropertyChanged
             OnPropertyChanged(nameof(SelectedModifiedText));
         }
     }
-    private EModeView _viewMode = EModeView.Icons;
+    private ModeConfiguration _modeConfiguration;
 
-    public EModeView ViewMode
+    public ModeConfiguration ModeConfiguration
     {
-        get => _viewMode;
+        get => _modeConfiguration;
         set
         {
             try
             {
-                if (_viewMode == value)
+                if (_modeConfiguration == value)
                     return;
 
-                _viewMode = value;
+                _modeConfiguration = value;
 
-                System.IO.File.WriteAllText("Assets/ViewMode.txt", $"{(int)_viewMode}");
+                System.IO.File.WriteAllText("Assets/ModeConfiguration.txt", JsonSerializer.Serialize(_modeConfiguration));
 
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(IsIconMode));
@@ -234,22 +281,28 @@ public class ExplorerViewModel : INotifyPropertyChanged
                  System.IO.File.AppendAllText(
                     @"debug.txt",
                     $" \t \n  exceção {e.Message} {e.StackTrace} \t \t ");
-
             }
-         
         }
     }
-    public bool IsIconMode => ViewMode == EModeView.Icons;
+    public bool IsIconMode => ModeConfiguration.ModeView == EModeView.Icons;
 
-    public bool IsDetailsMode => ViewMode == EModeView.Details;
+    public bool IsDetailsMode => ModeConfiguration.ModeView == EModeView.Details;
     public void SetIconMode()
     {
-        ViewMode = EModeView.Icons;
+        ModeConfiguration = new ModeConfiguration()
+        {
+            ModeOrder = ModeConfiguration.ModeOrder,
+            ModeView = EModeView.Icons
+        };
     }
 
     public void SetDetailsMode()
     {
-        ViewMode = EModeView.Details;
+        ModeConfiguration = new ModeConfiguration()
+        {
+            ModeOrder = ModeConfiguration.ModeOrder,
+            ModeView = EModeView.Details
+        };
     }
     public bool HasSelection => SelectedDirectory is not null || SelectedFile is not null;
 
@@ -268,10 +321,10 @@ public class ExplorerViewModel : INotifyPropertyChanged
         SelectedFile?.Path ??
         string.Empty;
 
-    public string SelectedIcon =>
-        SelectedDirectory is not null ? "/Assets/directory.png" :
-        SelectedFile is not null ? "/Assets/file.png" :
-        string.Empty;
+    public Bitmap SelectedIcon =>
+        SelectedDirectory is not null ? new Bitmap("/Assets/directory.png") :
+        SelectedFile is not null ? SelectedFile.Icon :
+        new Bitmap("");
 
     public string SelectedPrimaryInfo =>
         SelectedDirectory is not null
@@ -296,18 +349,12 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         try
         {
-            var modeDefault =  EModeView.Icons;
-            var viewModeResult = int.TryParse(await System.IO.File.ReadAllTextAsync("Assets/ViewMode.txt"),out int viewMode);
-            if (viewModeResult)
-            {
-                modeDefault = (EModeView)viewMode;
-            }
+            await ApplyModeConfiguration();
             _manager = new ManagerCommands();
 
             CurrentDirectory = _manager.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile));
                 
             Partitions =  _manager.GetPartition();
-            ViewMode = modeDefault;
             
         }
         catch (Exception e)
@@ -321,6 +368,34 @@ public class ExplorerViewModel : INotifyPropertyChanged
                 Name = "Erro ao carregar"
             };
         }
+    }
+
+    public async Task ApplyModeConfiguration()
+    {
+        try
+        {
+            var modeDefault =  EModeView.Icons;
+            var modeConfiguration = JsonSerializer.Deserialize<ModeConfiguration>(await System.IO.File.ReadAllTextAsync("Assets/ModeConfiguration.txt"));
+            
+            if (modeConfiguration is null)
+            {
+                modeConfiguration = new ModeConfiguration()
+                {
+                    ModeView = modeDefault,
+                    ModeOrder = EOrderMode.Name
+                };
+            }
+            ModeConfiguration = modeConfiguration;
+        }
+        catch(Exception e )
+        {
+            ModeConfiguration = new ModeConfiguration()
+            {
+                ModeView = EModeView.Icons,
+                ModeOrder = EOrderMode.Name
+            };
+        }
+        
     }
 
     private static string FormatBytes(long bytes)
@@ -388,6 +463,19 @@ public class ExplorerViewModel : INotifyPropertyChanged
         OnPropertyChanged();
     }
     
+    public void VisibleMove(string path)
+    {
+        CurrentPathMove = path;
+        HasVisibleMove = true;
+        OnPropertyChanged();
+    }
+    public void NoVisibleMove()
+    {
+        CurrentPathMove = "";
+        HasVisibleMove = false;
+        CurrentDirectory = _manager.GetFiles(CurrentDirectory.Path); 
+        OnPropertyChanged();
+    }
     public void VisibleRename(string path)
     {
         NewNameRename = path;

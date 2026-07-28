@@ -1,12 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.Text.Json;
 using System.Diagnostics;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.IO;
-using System.Linq;
-using OpenPath.UI.Enuns;
+using Avalonia.Media.Imaging;
 
 namespace OpenPath.UI.Models;
 
@@ -17,11 +14,10 @@ public class ManagerCommands
         
     }
 
-    public EOrderMode? OrderMode { get; set; }
 
     public Directory GetFiles(string path)
     {   
-        path = path.Trim();
+        path = path.Trim(); 
         
         path = path.Replace("\r", "")
             .Replace("\n", "");
@@ -45,22 +41,21 @@ public class ManagerCommands
 
         foreach (var item in directoryInfo.GetFiles())
         {
-            directory.Files.Add(new File()
+            var fileAdd = new File()
             {
                 Name = item.Name,
                 Path = item.FullName,
                 LastWriteTime = item.LastWriteTime,
-                Lenght = File.FormatBytes(item.Length)
-            });
-        }
+                Lenght = File.FormatBytes(item.Length),
+                Icon = new Bitmap("Assets/file.png")
+            };
 
-        if (OrderMode is not null)
-        {
-            if (OrderMode is EOrderMode.Data)
-            {
-                directory.Directories = directory.Directories.OrderByDescending(x => x.Date).ToList();
-                directory.Files = directory.Files.OrderByDescending(x => x.LastWriteTime).ToList();
-            }
+            if (item.Extension.Equals(".png", StringComparison.OrdinalIgnoreCase) ||
+                item.Extension.Equals(".jpg", StringComparison.OrdinalIgnoreCase) ||
+                item.Extension.Equals(".jpeg", StringComparison.OrdinalIgnoreCase))
+                fileAdd.Icon = new Bitmap(item.FullName);
+            
+            directory.Files.Add(fileAdd);
         }
         return directory;
     }

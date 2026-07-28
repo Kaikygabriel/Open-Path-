@@ -1,4 +1,5 @@
 using System;
+using Avalonia.Media.Imaging;
 
 namespace OpenPath.UI.Models;
 
@@ -20,7 +21,7 @@ public sealed class File
     public string Extension { get; set; }
     public string Lenght { get; set; }
     public DateTime LastWriteTime { get; set; }
-    
+    public Bitmap Icon { get; set; }
     public static string FormatBytes(long bytes)
     {
         string[] suffixes = ["B", "KB", "MB", "GB", "TB"];
