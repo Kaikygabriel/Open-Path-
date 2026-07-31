@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Avalonia.Media.Imaging;
+using OpenPath.UI.Configurations;
 using OpenPath.UI.Enuns;
 using OpenPath.UI.Models;
 
@@ -270,7 +271,11 @@ public class ExplorerViewModel : INotifyPropertyChanged
 
                 _modeConfiguration = value;
 
-                System.IO.File.WriteAllText("Assets/ModeConfiguration.txt", JsonSerializer.Serialize(_modeConfiguration));
+                if(!System.IO.Directory.Exists(System.IO.Path.GetDirectoryName(ConfigurationKey.PathConfigurationMode)))
+                    System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(ConfigurationKey.PathConfigurationMode)!);
+
+                System.IO.File.WriteAllText(ConfigurationKey.PathConfigurationMode,
+                    JsonSerializer.Serialize(_modeConfiguration));
 
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(IsIconMode));
@@ -278,7 +283,7 @@ public class ExplorerViewModel : INotifyPropertyChanged
             }
             catch (Exception e)
             {
-                 System.IO.File.AppendAllText(
+                System.IO.File.AppendAllText(
                     @"debug.txt",
                     $" \t \n  exceção {e.Message} {e.StackTrace} \t \t ");
             }
@@ -349,13 +354,20 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         try
         {
+            await System.IO.File.AppendAllTextAsync(
+                @"debug.txt",
+                $" \t \n  Começou a carregar \t \t ");
+
             await ApplyModeConfiguration();
             _manager = new ManagerCommands();
 
             CurrentDirectory = _manager.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile));
                 
             Partitions =  _manager.GetPartition();
-            
+            await System.IO.File.AppendAllTextAsync(
+                @"debug.txt",
+                $" \t \n PASSOU DO LOAD DO EXPLORERVIEWMODEL \t \t ");
+
         }
         catch (Exception e)
         {
@@ -374,8 +386,11 @@ public class ExplorerViewModel : INotifyPropertyChanged
     {
         try
         {
+            if(!System.IO.Directory.Exists(System.IO.Path.GetDirectoryName(ConfigurationKey.PathConfigurationMode)))
+                System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(ConfigurationKey.PathConfigurationMode)!);
+            
             var modeDefault =  EModeView.Icons;
-            var modeConfiguration = JsonSerializer.Deserialize<ModeConfiguration>(await System.IO.File.ReadAllTextAsync("Assets/ModeConfiguration.txt"));
+            var modeConfiguration = JsonSerializer.Deserialize<ModeConfiguration>(await System.IO.File.ReadAllTextAsync(ConfigurationKey.PathConfigurationMode));
             
             if (modeConfiguration is null)
             {

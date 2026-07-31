@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using System.IO;
 using Avalonia.Media.Imaging;
+using Avalonia.Platform;
 
 namespace OpenPath.UI.Models;
 
@@ -47,7 +48,7 @@ public class ManagerCommands
                 Path = item.FullName,
                 LastWriteTime = item.LastWriteTime,
                 Lenght = File.FormatBytes(item.Length),
-                Icon = new Bitmap("Assets/file.png")
+                Icon = new Bitmap(AssetLoader.Open(new Uri("avares://OpenPath.UI/Assets/file.png")))
             };
 
             if (item.Extension.Equals(".png", StringComparison.OrdinalIgnoreCase) ||

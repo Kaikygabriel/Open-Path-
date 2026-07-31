@@ -1,13 +1,37 @@
-     	 
-  NOME DO MOVE C:\Users\kaiky\.azuredatastudio 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\.azuredatastudio 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\.omnisharp 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\xpto.txt 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\html\xpto.txt 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\html 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\.azuredatastudio 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\testeMover 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\.nuget 	 	  	 
-  NOME DO MOVE F:\microlins.jpeg 	 	  	 
-  NOME DO MOVE F:\C#4Projet.jpg 	 	  	 
-  NOME DO MOVE C:\Users\kaiky\Downloads\kaka 	 	 
+ 	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+  exceção Could not find a part of the path 'C:\Users\kaiky\Documents\OpenPath\ConfigurationMode.txt'.    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, ReadOnlySpan`1 contents, Encoding encoding)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at OpenPath.UI.ViewModels.ExplorerViewModel.set_ModeConfiguration(ModeConfiguration value) in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 274 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  exceção Could not find a part of the path 'C:\Users\kaiky\Documents\OpenPath\ConfigurationMode.txt'.    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, ReadOnlySpan`1 contents, Encoding encoding)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at OpenPath.UI.ViewModels.ExplorerViewModel.set_ModeConfiguration(ModeConfiguration value) in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 274 	 	  	 
+  exceção Could not find a part of the path 'C:\Users\kaiky\Documents\OpenPath\ConfigurationMode.txt'.    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, ReadOnlySpan`1 contents, Encoding encoding)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at OpenPath.UI.ViewModels.ExplorerViewModel.set_ModeConfiguration(ModeConfiguration value) in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 274 	 	  	 
+  exceção Could not find a part of the path 'C:\Users\kaiky\Documents\OpenPath\ConfigurationMode.txt'.    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, ReadOnlySpan`1 contents, Encoding encoding)
+   at System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   at OpenPath.UI.ViewModels.ExplorerViewModel.set_ModeConfiguration(ModeConfiguration value) in C:\Users\kaiky\Downloads\kaka\C#\ProjetosPortifolio\OpenPath\src\OpenPath\OpenPath.UI\ViewModels\ExplorerViewModel.cs:line 274 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	 
