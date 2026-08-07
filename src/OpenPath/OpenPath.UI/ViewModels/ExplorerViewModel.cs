@@ -112,6 +112,7 @@ public class ExplorerViewModel : INotifyPropertyChanged
 
     private string _currentPathMove = "";
 
+    
     public string CurrentPathMove
     {
         get => _currentPathMove;
@@ -121,6 +122,21 @@ public class ExplorerViewModel : INotifyPropertyChanged
                 return;
 
             _currentPathMove = value;
+            if(_hasVisibleMove)
+            {
+                if (System.IO.Directory.Exists(_currentPathMove))
+                {
+                    var managerCommand = new ManagerCommands();
+                    DirectoryCurrentInMove = managerCommand.GetFiles(_currentPathMove); 
+                }
+                else
+                {
+                    DirectoryCurrentInMove = new Directory()
+                    {
+                        Directories = []
+                    };
+                }
+            }
             OnPropertyChanged();
         }
     }
@@ -145,6 +161,22 @@ public class ExplorerViewModel : INotifyPropertyChanged
     public string Next { get; set; } = string.Empty;
     public string Previous { get; set; } = string.Empty;
 
+    private Directory _directoryCurrentInMove;
+    public Directory DirectoryCurrentInMove
+    {
+        get => _directoryCurrentInMove;
+        set
+        {
+            if (Equals(_directoryCurrentInMove, value))
+                return;
+
+            _directoryCurrentInMove = value;
+
+            OnPropertyChanged();
+        }
+    }
+
+    
     public Directory CurrentDirectory
     {
         get => _currentDirectory;
@@ -480,15 +512,28 @@ public class ExplorerViewModel : INotifyPropertyChanged
     
     public void VisibleMove(string path)
     {
-        CurrentPathMove = path;
+        var currentPath = path;
+        if (OperatingSystem.IsWindows())
+        {
+            var folders = path.Split('\\').ToList();
+            folders.Remove(folders.Last());
+            currentPath = string.Join('\\', folders);
+        }
+        else 
+        {
+            var folders = path.Split('/').ToList();
+            folders.Remove(folders.Last());
+            currentPath = string.Join('/', folders);
+        }
+        
+        CurrentPathMove = currentPath;
         HasVisibleMove = true;
         OnPropertyChanged();
     }
     public void NoVisibleMove()
     {
-        CurrentPathMove = "";
         HasVisibleMove = false;
-        CurrentDirectory = _manager.GetFiles(CurrentDirectory.Path); 
+        CurrentPathMove = "";
         OnPropertyChanged();
     }
     public void VisibleRename(string path)

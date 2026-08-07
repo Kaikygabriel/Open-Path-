@@ -402,7 +402,6 @@ public partial class ExplorerView : UserControl
 
             vm.VisibleRename(_pathRename.Split(new[] { '/', '\\' }).ToList().Last());
         }
-
     }
 
     public  void CancelMove(object? sender, RoutedEventArgs e)
@@ -441,6 +440,17 @@ public partial class ExplorerView : UserControl
     {
         if (DataContext is ExplorerViewModel vm)
             vm.NoVisibleRename(_pathRename);
+    }
+    public void SelectedFolderInMove(object? sender, RoutedEventArgs e)
+    {
+        if (sender is Button { DataContext: Directory directory })
+        {
+            if (DataContext is ExplorerViewModel vm)
+            {
+                vm.CurrentPathMove = System.IO.Path.Combine(vm.CurrentPathMove,directory.Name);
+            }
+        }
+
     }
     
     private void OnOpenMove(object? sender, RoutedEventArgs e)
@@ -481,19 +491,27 @@ public partial class ExplorerView : UserControl
     
     private async void MoveFile(object? sender, RoutedEventArgs e)
     {
-        if (DataContext is ExplorerViewModel vm && !string.IsNullOrEmpty(vm.CurrentPathMove))
+        try
         {
-            if (_isFileRename)
+            if (DataContext is ExplorerViewModel vm && !string.IsNullOrEmpty(vm.CurrentPathMove))
             {
-                System.IO.File.Move(_pathMove, vm.CurrentPathMove);
-            }
-            else
-            {
-                System.IO.Directory.Move(_pathMove, vm.CurrentPathMove);
-            }
+                
+                if (_isFileRename)
+                {
+                    System.IO.File.Move(_pathMove, System.IO.Path.Combine(vm.CurrentPathMove,System.IO.Path.GetFileName(_pathMove)));
+                }
+                else
+                {
+                    System.IO.Directory.Move(_pathMove, System.IO.Path.Combine(vm.CurrentPathMove,System.IO.Path.GetFileName(_pathMove)));
+                }
             
-            _pathMove = string.Empty;
-            vm.NoVisibleMove();
+                _pathMove = string.Empty;
+                vm.NoVisibleMove();
+            }
+        }
+        catch (Exception exception)
+        {
+            await System.IO.File.AppendAllTextAsync(@"debug.txt", $"Class : ExplorerView.axml.cs - Method :MoveFile {exception.Message}");
         }
     }       
 }

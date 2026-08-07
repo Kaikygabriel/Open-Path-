@@ -34,4 +34,81 @@
   Começou a carregar 	 	  	 
  PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
   Começou a carregar 	 	  	 
- PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\Downloads\Cristal.jpeg 	 	  	 
+  NOME DO MOVE F:\Projeto.png 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\Ambiente de Rede 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.dotnet 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.copilot 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.viminfo 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.cache 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\Videos 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.dotnet 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.viminfo 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.bash_history 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\xpto.txt 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\dotnet 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\Postman Agent 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\Documents 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\Downloads 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\OneDrive 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\Links 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.dotnet 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\NTUSER.DAT 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\xpto.txt 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.dacfx 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\xpto.txt
+Class : ExplorerView.axml.cs - Method :MoveFile Cannot create 'C:\Users\kaiky\Downloads\kaka' because a file or directory with the same name already exists. 	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\xpto.txt 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\dotnet 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\html 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\Contacts 	 	  	 
+  Começou a carregar 	 	  	 
+ PASSOU DO LOAD DO EXPLORERVIEWMODEL 	 	  	 
+  NOME DO MOVE C:\Users\kaiky\.cache 	 	 

@@ -1,4 +1,4 @@
-   <UserControl
+    <UserControl
     xmlns="https://github.com/avaloniaui"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:vm="using:OpenPath.UI.ViewModels"
@@ -1130,7 +1130,7 @@
                 </StackPanel>
             </Border>
         </Grid>
-        
+
         <Grid Grid.Row="0" Grid.RowSpan="2"
               IsVisible="{Binding HasVisibleMove}"
               Background="#40000000"
@@ -1151,8 +1151,7 @@
 
                     <TextBlock Text="Mover"
                                FontSize="18"
-                               FontWeight="SemiBold"
-                               Foreground="#111827"/>
+                               FontWeight="SemiBold" />
 
                     <Border Background="White"
                             BorderBrush="#D1D5DB"
@@ -1160,10 +1159,55 @@
                             CornerRadius="12"
                             Padding="12,8">
 
-                        <TextBox Text="{Binding CurrentPathMove, Mode=TwoWay}"
+                        <TextBox Text="{Binding CurrentPathMove}"
                                  Background="Transparent"
-                                 BorderThickness="0"
-                                 PlaceholderText="Digite o novo caminho "/>
+                                 BorderThickness="0" />
+                    </Border>
+
+                    <!-- Lista de pastas -->
+                    <Border BorderBrush="#D1D5DB"
+                            BorderThickness="1"
+                            CornerRadius="12">
+
+                        <ScrollViewer Height="180"
+                                      VerticalScrollBarVisibility="Auto"
+                                      HorizontalScrollBarVisibility="Disabled">
+
+                            <ItemsControl ItemsSource="{Binding DirectoryCurrentInMove.Directories}">
+
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="model:Directory">
+
+                                        <Button
+                                               Padding="10,9"
+                                                Background="Transparent"
+                                                BorderThickness="0"
+                                               Click="SelectedFolderInMove"
+                                                HorizontalContentAlignment="Stretch">
+
+                                            <StackPanel Orientation="Horizontal"
+                                                        Margin="10">
+
+                                                <Image Width="20"
+                                                       Height="20"
+                                                       Source="/Assets/directory.png" />
+
+                                                <TextBlock 
+                                                        Margin="10,0,0,0"
+                                                           VerticalAlignment="Center"
+                                                           Text="{Binding Name}" />
+
+                                            </StackPanel>
+
+                                        </Button>
+
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+
+                            </ItemsControl>
+
+                        </ScrollViewer>
+
                     </Border>
 
                     <StackPanel Orientation="Horizontal"
@@ -1171,22 +1215,16 @@
                                 Spacing="10">
 
                         <Button Content="Cancelar"
-                                Click="CancelMove" 
-                                Background="#111827"
-                                Foreground="White"
-                                BorderThickness="0"
-                                CornerRadius="10"/>
+                                Click="CancelMove" />
 
-                        <Button Content="Mover"
-                                Click="MoveFile" 
-                                Background="#111827"
-                                Foreground="White"
-                                BorderThickness="0"
-                                CornerRadius="10"/>
+                        <Button 
+                            Content="Mover"
+                                Click="MoveFile" />
 
                     </StackPanel>
 
                 </StackPanel>
+
             </Border>
         </Grid>
         
